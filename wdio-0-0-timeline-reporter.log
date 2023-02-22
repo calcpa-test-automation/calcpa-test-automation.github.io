@@ -1,0 +1,70 @@
+{
+  "start": "2023-02-22T22:27:35.340Z",
+  "end": "2023-02-22T22:28:49.896Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "112.0a1",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20230221212648",
+    "moz:geckodriverVersion": "0.32.0",
+    "moz:headless": false,
+    "moz:platformVersion": "10.0",
+    "moz:processID": 14020,
+    "moz:profile": "C:\\Users\\hi\\AppData\\Local\\Temp\\rust_mozprofileH2Tp0s",
+    "moz:shutdownTimeout": 60000,
+    "moz:useNonSpecCompliantPointerOrigin": false,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "sessionId": "c2b0d22c-f0b7-4601-9c7f-d5972baaa188"
+  },
+  "host": "127.0.0.1",
+  "port": 55789,
+  "framework": "mocha",
+  "duration": 74556,
+  "suites": [
+    {
+      "title": "Sanity Checks",
+      "duration": 73923,
+      "start": "2023-02-22T22:27:35.343Z",
+      "end": "2023-02-22T22:28:49.266Z",
+      "tests": [
+        {
+          "title": "Set Up New User and Log In",
+          "start": "2023-02-22T22:27:35.343Z",
+          "end": "2023-02-22T22:28:49.264Z",
+          "duration": 73921,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677104929261.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 60 seconds!",
+            "stack": "Error: The element was not clickable within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:57:14)\n    at Function.signIn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:46:19)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:21:27)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}

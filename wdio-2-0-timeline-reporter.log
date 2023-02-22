@@ -1,0 +1,70 @@
+{
+  "start": "2023-02-22T22:27:34.180Z",
+  "end": "2023-02-22T22:27:49.925Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "109.0.5414.122",
+    "chrome": {
+      "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir83508_549588789"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:55811"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "bb0b048fe11154200d3a9203c9c6a033"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "framework": "mocha",
+  "duration": 15745,
+  "suites": [
+    {
+      "title": "Sanity Checks",
+      "duration": 15715,
+      "start": "2023-02-22T22:27:34.182Z",
+      "end": "2023-02-22T22:27:49.897Z",
+      "tests": [
+        {
+          "title": "Set Up New User and Log In",
+          "start": "2023-02-22T22:27:34.182Z",
+          "end": "2023-02-22T22:27:49.896Z",
+          "duration": 15714,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677104869893.jpeg"
+          ],
+          "error": {
+            "type": "TypeError",
+            "message": "Cannot read property 'id' of undefined",
+            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:33:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:20:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}
