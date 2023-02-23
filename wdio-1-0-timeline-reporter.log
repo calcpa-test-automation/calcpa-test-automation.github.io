@@ -1,16 +1,16 @@
 {
-  "start": "2023-02-22T22:27:34.244Z",
-  "end": "2023-02-22T22:28:53.715Z",
+  "start": "2023-02-23T08:01:19.884Z",
+  "end": "2023-02-23T08:01:51.445Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "109.0.5414.122",
     "chrome": {
       "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir83508_1405302037"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir89024_1753476033"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:55813"
+      "debuggerAddress": "localhost:53322"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -27,32 +27,32 @@
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "d9eb170209c14ca7eac8e3bb51c0c395"
+    "sessionId": "a3e2e8a7f16eb0d715896f6a932e993b"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 79471,
+  "duration": 31561,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 79418,
-      "start": "2023-02-22T22:27:34.246Z",
-      "end": "2023-02-22T22:28:53.664Z",
+      "duration": 31513,
+      "start": "2023-02-23T08:01:19.887Z",
+      "end": "2023-02-23T08:01:51.400Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-02-22T22:27:34.247Z",
-          "end": "2023-02-22T22:28:53.663Z",
-          "duration": 79416,
+          "start": "2023-02-23T08:01:19.887Z",
+          "end": "2023-02-23T08:01:51.396Z",
+          "duration": 31509,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677104933660.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677139311392.jpeg"
           ],
           "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 60 seconds!",
-            "stack": "Error: The element was not clickable within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:57:14)\n    at Function.signIn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:46:19)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:21:27)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "type": "TypeError",
+            "message": "Cannot read property 'id' of undefined",
+            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:33:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:20:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
