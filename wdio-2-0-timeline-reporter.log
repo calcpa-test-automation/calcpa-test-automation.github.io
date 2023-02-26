@@ -1,16 +1,16 @@
 {
-  "start": "2023-02-26T08:09:28.048Z",
-  "end": "2023-02-26T08:13:29.548Z",
+  "start": "2023-02-26T22:28:16.365Z",
+  "end": "2023-02-26T22:28:37.131Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "109.0.5414.122",
     "chrome": {
       "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir13900_638570699"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir57588_1359160088"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:61171"
+      "debuggerAddress": "localhost:56528"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -27,93 +27,28 @@
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "4394340aba89d1de8b547f3af8137281"
+    "sessionId": "89feaef23216e71facd9ce99dedca157"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 241500,
+  "duration": 20766,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 241465,
-      "start": "2023-02-26T08:09:28.050Z",
-      "end": "2023-02-26T08:13:29.515Z",
+      "duration": 20740,
+      "start": "2023-02-26T22:28:16.367Z",
+      "end": "2023-02-26T22:28:37.107Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-02-26T08:09:28.050Z",
-          "end": "2023-02-26T08:10:31.207Z",
-          "duration": 63157,
-          "state": "failed",
+          "start": "2023-02-26T22:28:16.367Z",
+          "end": "2023-02-26T22:28:37.106Z",
+          "duration": 20739,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677399031205.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'You will receive an email to validate your email address.' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/signup' within 60 seconds!",
-            "stack": "Error: The text 'You will receive an email to validate your email address.' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/signup' within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayedWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:102:17)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:32:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:20:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "Adds Webinars to Cart from Event Detail Page",
-          "start": "2023-02-26T08:10:31.208Z",
-          "end": "2023-02-26T08:11:21.627Z",
-          "duration": 50419,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677399081627.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399059546%26type%3Dactivity%26sig%3DXtB49p8HAEZLLhD7fXZANp4mUp6K%252BgoXLCQhdvblG5k%253D' within twenty seconds!",
-            "stack": "Error: The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399059546%26type%3Dactivity%26sig%3DXtB49p8HAEZLLhD7fXZANp4mUp6K%252BgoXLCQhdvblG5k%253D' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:94:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "Adds On-Demand to Cart from Event Detail Page",
-          "start": "2023-02-26T08:11:21.628Z",
-          "end": "2023-02-26T08:12:04.007Z",
-          "duration": 42379,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677399124006.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399102230%26type%3Dactivity%26sig%3DTwmhXBczNR%252F5%252FRZVL2HoU5F9TNrcjhFDECzK0uzNHcs%253D' within twenty seconds!",
-            "stack": "Error: The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399102230%26type%3Dactivity%26sig%3DTwmhXBczNR%252F5%252FRZVL2HoU5F9TNrcjhFDECzK0uzNHcs%253D' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:94:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "Adds Conferences to Cart from Event Detail Page",
-          "start": "2023-02-26T08:12:04.007Z",
-          "end": "2023-02-26T08:12:46.663Z",
-          "duration": 42656,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677399166663.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Fraud & Forensic Accounting Virtual Conference | 1000001992' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R00000005dqUAA%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Ffraud---forensic-accounting-virtual-conference---1000001992%253FaddToCartCatalogItemId%253Da6E6R00000005dqUAA%26ts%3D1677399144711%26type%3Dactivity%26sig%3DORvreL%252FNI05TdBU0YS%252Fwx%252FqUtsJ98DaQsAP3BRxWs2o%253D' within twenty seconds!",
-            "stack": "Error: The text 'Fraud & Forensic Accounting Virtual Conference | 1000001992' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R00000005dqUAA%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Ffraud---forensic-accounting-virtual-conference---1000001992%253FaddToCartCatalogItemId%253Da6E6R00000005dqUAA%26ts%3D1677399144711%26type%3Dactivity%26sig%3DORvreL%252FNI05TdBU0YS%252Fwx%252FqUtsJ98DaQsAP3BRxWs2o%253D' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:94:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "Adds Chapter Events to Cart from Event Detail Page",
-          "start": "2023-02-26T08:12:46.663Z",
-          "end": "2023-02-26T08:13:29.515Z",
-          "duration": 42852,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677399209514.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399187573%26type%3Dactivity%26sig%3DmeQxLpz7vd0XOVCcoTSCUbbnf9%252FQDYf7K1ci%252BhSpO5k%253D' within twenty seconds!",
-            "stack": "Error: The text 'Government Auditing Standard Independence | 1000000901C' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fapex%2FDxpStoreBridgeApiPage%3FcatalogItemId%3Da6E6R0000004PLYUA2%26errorUrl%3Dhttps%253A%252F%252Fstore.full.calcpa.org%252Fcatalog%252Factivity%252Fgovernment-auditing-standard-independence---1000000901c%253FaddToCartCatalogItemId%253Da6E6R0000004PLYUA2%26ts%3D1677399187573%26type%3Dactivity%26sig%3DmeQxLpz7vd0XOVCcoTSCUbbnf9%252FQDYf7K1ci%252BhSpO5k%253D' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:94:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1677450517105.jpeg"
+          ]
         }
       ],
       "hooks": []
@@ -123,8 +58,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 5,
+    "passed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }
