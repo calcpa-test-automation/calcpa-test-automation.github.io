@@ -1,16 +1,16 @@
 {
-  "start": "2023-04-07T07:32:47.023Z",
-  "end": "2023-04-07T07:34:06.724Z",
+  "start": "2023-04-09T07:19:41.734Z",
+  "end": "2023-04-09T07:24:17.454Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "111.0.5563.147",
     "chrome": {
       "chromedriverVersion": "110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir8352_411661977"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir30252_1809127251"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:64224"
+      "debuggerAddress": "localhost:61824"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -27,78 +27,58 @@
     "webauthn:extension:credBlob": true,
     "webauthn:extension:largeBlob": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "35d86aa9b83e71273716da8daba43764"
+    "sessionId": "c616cbf4fb6a6344dcca4a82e7c13104"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 79701,
+  "duration": 275720,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 79673,
-      "start": "2023-04-07T07:32:47.026Z",
-      "end": "2023-04-07T07:34:06.699Z",
+      "duration": 275669,
+      "start": "2023-04-09T07:19:41.736Z",
+      "end": "2023-04-09T07:24:17.405Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-04-07T07:32:47.026Z",
-          "end": "2023-04-07T07:33:09.846Z",
-          "duration": 22820,
-          "state": "failed",
+          "start": "2023-04-09T07:19:41.736Z",
+          "end": "2023-04-09T07:20:52.421Z",
+          "duration": 70685,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1680852789846.jpeg"
-          ],
-          "error": {
-            "type": "TypeError",
-            "message": "Cannot read property 'id' of undefined",
-            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:34:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1681024852420.jpeg"
+          ]
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-04-07T07:33:09.847Z",
-          "end": "2023-04-07T07:33:28.698Z",
-          "duration": 18851,
-          "state": "failed",
+          "start": "2023-04-09T07:20:52.421Z",
+          "end": "2023-04-09T07:22:02.525Z",
+          "duration": 70104,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1680852808698.jpeg"
-          ],
-          "error": {
-            "type": "TypeError",
-            "message": "Cannot read property 'id' of undefined",
-            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:34:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1681024922524.jpeg"
+          ]
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-04-07T07:33:28.698Z",
-          "end": "2023-04-07T07:33:47.425Z",
-          "duration": 18727,
-          "state": "failed",
+          "start": "2023-04-09T07:22:02.525Z",
+          "end": "2023-04-09T07:23:10.256Z",
+          "duration": 67731,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1680852827425.jpeg"
-          ],
-          "error": {
-            "type": "TypeError",
-            "message": "Cannot read property 'id' of undefined",
-            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:34:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1681024990255.jpeg"
+          ]
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-04-07T07:33:47.425Z",
-          "end": "2023-04-07T07:34:06.698Z",
-          "duration": 19273,
-          "state": "failed",
+          "start": "2023-04-09T07:23:10.257Z",
+          "end": "2023-04-09T07:24:17.404Z",
+          "duration": 67147,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1680852846698.jpeg"
-          ],
-          "error": {
-            "type": "TypeError",
-            "message": "Cannot read property 'id' of undefined",
-            "stack": "TypeError: Cannot read property 'id' of undefined\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:12:68)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:34:37)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1681025057404.jpeg"
+          ]
         }
       ],
       "hooks": []
@@ -108,8 +88,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 4,
+    "passed": 4,
+    "failed": 0,
     "skipped": 0
   }
 }
