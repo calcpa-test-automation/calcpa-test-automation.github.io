@@ -1,16 +1,16 @@
 {
-  "start": "2023-04-24T17:13:44.533Z",
-  "end": "2023-04-24T17:15:04.354Z",
+  "start": "2023-04-26T07:25:37.721Z",
+  "end": "2023-04-26T07:27:05.054Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "112.0.5615.138",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir85208_778712767"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir66496_726979040"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:49865"
+      "debuggerAddress": "localhost:63127"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,28 +29,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "67448da85d92db95c4b4718170ab0d0c"
+    "sessionId": "379d2179fac82137825b7b6cb3fd3144"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 79821,
+  "duration": 87333,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 79781,
-      "start": "2023-04-24T17:13:44.535Z",
-      "end": "2023-04-24T17:15:04.316Z",
+      "duration": 87297,
+      "start": "2023-04-26T07:25:37.724Z",
+      "end": "2023-04-26T07:27:05.021Z",
       "tests": [
         {
           "title": "ECR2 - Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-04-24T17:13:44.535Z",
-          "end": "2023-04-24T17:15:04.315Z",
-          "duration": 79780,
-          "state": "passed",
+          "start": "2023-04-26T07:25:37.724Z",
+          "end": "2023-04-26T07:27:05.021Z",
+          "duration": 87297,
+          "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1682356504314.jpeg"
-          ]
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1682494025020.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 10 seconds!",
+            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:16:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:52:14)\n    at Function.clickPlaceOrderButton (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page-ecr2.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:39:38)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -60,8 +65,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
