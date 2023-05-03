@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-02T07:16:12.084Z",
-  "end": "2023-05-02T07:20:14.367Z",
+  "start": "2023-05-03T07:15:03.416Z",
+  "end": "2023-05-03T07:19:09.197Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "112.0.5615.138",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19072_23466583"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir43228_936158785"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:54641"
+      "debuggerAddress": "localhost:53482"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,42 +29,42 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "dac3303226a8c3212f2914776aac4ea5"
+    "sessionId": "b4418598f56771c20e9b8b4d55d94283"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 242283,
+  "duration": 245781,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 242231,
-      "start": "2023-05-02T07:16:12.086Z",
-      "end": "2023-05-02T07:20:14.317Z",
+      "duration": 245746,
+      "start": "2023-05-03T07:15:03.418Z",
+      "end": "2023-05-03T07:19:09.164Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-02T07:16:12.086Z",
-          "end": "2023-05-02T07:18:02.001Z",
-          "duration": 109915,
+          "start": "2023-05-03T07:15:03.418Z",
+          "end": "2023-05-03T07:16:54.843Z",
+          "duration": 111425,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683011881999.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683098214842.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYfgeLxtMDAwMDAwMDAwMDAwMDAwAAAA8nTq2sOJvXItDMtlxRgZtYpH89xiX_UPk-4C1W01AxQwa3D8qAud09m-_ya9UP-bAWAeCQOB5IgjGBLLRStYW3ZULhRsULtc2Th0MJW_GVvhQ_UMECbTT211-m-CcK89elFbaA8xOjxzdQTmdZBpmQQc5tUnrnT44_c3tlEv_pMdJOHExEWH_amZ8kso1QtKFkmo15IeUGCLW0EaGPRq8ZXM_SO7MBsFq6cU3LVzYHmuAlZSbFajxTXYqa3wX43qFyCjlDUhyey7hF73hy8R3273rJTsUvRz6wTfjrHaMAe0sZR7yqftZzf22dAtjmCixqus1rZ8pcAw_U1vrI0f4snsV0Fk3_HT58hqiVkWxV_9k0uhWGIQFrrv74W50WtFmjpADZSkREp1-mUrzIHRsacja56zVoJbjBdr0z9IJTEcluF51vGR8K-PDixbGt8gAG58AfqXZcgQb2RXejUZsZWD6gO-yEZvjlWf0uFzlTcc7JfMUe9PBP3L6T3w2q3zooehvZPhXv9wNVXm0_rVMLf9T5kgb5AyAtanPbE36NSLCjf45rzRBOA8b54nwrRQ7N6Cu1jGNcX82cu4yztF-O2_ODTv0k6gkyiFlqem7TVqTfRC3BUt5ZOH25eIPwEUhvNhIpbUOgsdZFtUDZ74Zr2IBXauzm_vtlln8H4_OcjCiyxou1dq4hUPOV96ykDS7hjwg5FXBZzFmRpOhjnTTkbo57Eg3ceNCia9DlnSxNP84DptXEnlauj3WoC-k3xc71ilyNbHKamQdl06arvfBRf-aTI5LkskIqxwnGpOi29s' within 60 seconds!",
-            "stack": "Error: The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYfgeLxtMDAwMDAwMDAwMDAwMDAwAAAA8nTq2sOJvXItDMtlxRgZtYpH89xiX_UPk-4C1W01AxQwa3D8qAud09m-_ya9UP-bAWAeCQOB5IgjGBLLRStYW3ZULhRsULtc2Th0MJW_GVvhQ_UMECbTT211-m-CcK89elFbaA8xOjxzdQTmdZBpmQQc5tUnrnT44_c3tlEv_pMdJOHExEWH_amZ8kso1QtKFkmo15IeUGCLW0EaGPRq8ZXM_SO7MBsFq6cU3LVzYHmuAlZSbFajxTXYqa3wX43qFyCjlDUhyey7hF73hy8R3273rJTsUvRz6wTfjrHaMAe0sZR7yqftZzf22dAtjmCixqus1rZ8pcAw_U1vrI0f4snsV0Fk3_HT58hqiVkWxV_9k0uhWGIQFrrv74W50WtFmjpADZSkREp1-mUrzIHRsacja56zVoJbjBdr0z9IJTEcluF51vGR8K-PDixbGt8gAG58AfqXZcgQb2RXejUZsZWD6gO-yEZvjlWf0uFzlTcc7JfMUe9PBP3L6T3w2q3zooehvZPhXv9wNVXm0_rVMLf9T5kgb5AyAtanPbE36NSLCjf45rzRBOA8b54nwrRQ7N6Cu1jGNcX82cu4yztF-O2_ODTv0k6gkyiFlqem7TVqTfRC3BUt5ZOH25eIPwEUhvNhIpbUOgsdZFtUDZ74Zr2IBXauzm_vtlln8H4_OcjCiyxou1dq4hUPOV96ykDS7hjwg5FXBZzFmRpOhjnTTkbo57Eg3ceNCia9DlnSxNP84DptXEnlauj3WoC-k3xc71ilyNbHKamQdl06arvfBRf-aTI5LkskIqxwnGpOi29s' within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayedWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:107:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYflng3vMDAwMDAwMDAwMDAwMDAwAAAA8nEhoUQml6OsKCF6tH3aQP0Ux7aL8HASTDvZo13KZ19hrLvSKmtS5Y7i7uaLLc8UX4MiKzg-uZeR1zWUkRIVTf8WonTBUxn4CxreFCokc3ToPVIWzjUJGki4eF83VhEN-CGqVNxDi5jGycHQQ-bHgDItLDQeqALtqF6zHLjD47q3tmiO4d_WC2EVnrMsxhqltOT83GgZ6JwXtwehGO30PIZ14KwqjzkdFJr6-ZhuaURkzZyMx43-p9GipxaGDL-LbH4mhX-oxhlvZqIiqk9XZOQCqJYfppR2s2T39njLs6q8COnZooZCJdtC9FShuMQbPE2k_GXirxtx8Sc_POkv00yx2LOK5vv8UttE3BvlBK3bwY5EI3CSLavrDQj_gSvsdBLbmtoh0sralOqc_Ebhs0oOv_aRhLH5jtJJRCh9gmPeMQwIV1RsH6Kxcnbp708DlQbDw60MPT5eBN-i9M0TzuqH57v6PEvndylHgyaf_2Kce370HBe3kf_Av_P6GMfzGm1_JTgEQOIKD4nn1qmUNpU_cdd-Hly1rNDLj5A6ul0DzqYD0ZO3pWf2LxXkrSHWqrz9GhPuLUzh93IlgJay3FLVV4TtNkBFOMKpGjijV1GuKUEyVtbS3w8Vj_GKqUqOsYPr6XzPIPnj43MuJFBJ8DAvWWnZbCUK5jUnddRuI92t2rqIkGkLivfoxjNWhGhcns10tyVHgNaMWrznXm5SYDt_571-N5O3iMvBBwNIUyrzbtHRUS05aqkTRDE6BXWNnNLxgste0YUPpX53_LV7nWh1h68nxFmVU9b-YcfS1Sim' within 60 seconds!",
+            "stack": "Error: The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYflng3vMDAwMDAwMDAwMDAwMDAwAAAA8nEhoUQml6OsKCF6tH3aQP0Ux7aL8HASTDvZo13KZ19hrLvSKmtS5Y7i7uaLLc8UX4MiKzg-uZeR1zWUkRIVTf8WonTBUxn4CxreFCokc3ToPVIWzjUJGki4eF83VhEN-CGqVNxDi5jGycHQQ-bHgDItLDQeqALtqF6zHLjD47q3tmiO4d_WC2EVnrMsxhqltOT83GgZ6JwXtwehGO30PIZ14KwqjzkdFJr6-ZhuaURkzZyMx43-p9GipxaGDL-LbH4mhX-oxhlvZqIiqk9XZOQCqJYfppR2s2T39njLs6q8COnZooZCJdtC9FShuMQbPE2k_GXirxtx8Sc_POkv00yx2LOK5vv8UttE3BvlBK3bwY5EI3CSLavrDQj_gSvsdBLbmtoh0sralOqc_Ebhs0oOv_aRhLH5jtJJRCh9gmPeMQwIV1RsH6Kxcnbp708DlQbDw60MPT5eBN-i9M0TzuqH57v6PEvndylHgyaf_2Kce370HBe3kf_Av_P6GMfzGm1_JTgEQOIKD4nn1qmUNpU_cdd-Hly1rNDLj5A6ul0DzqYD0ZO3pWf2LxXkrSHWqrz9GhPuLUzh93IlgJay3FLVV4TtNkBFOMKpGjijV1GuKUEyVtbS3w8Vj_GKqUqOsYPr6XzPIPnj43MuJFBJ8DAvWWnZbCUK5jUnddRuI92t2rqIkGkLivfoxjNWhGhcns10tyVHgNaMWrznXm5SYDt_571-N5O3iMvBBwNIUyrzbtHRUS05aqkTRDE6BXWNnNLxgste0YUPpX53_LV7nWh1h68nxFmVU9b-YcfS1Sim' within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayedWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:107:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-02T07:18:02.002Z",
-          "end": "2023-05-02T07:18:46.933Z",
-          "duration": 44931,
+          "start": "2023-05-03T07:16:54.844Z",
+          "end": "2023-05-03T07:17:40.314Z",
+          "duration": 45470,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683011926933.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683098260313.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -74,12 +74,12 @@
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-02T07:18:46.933Z",
-          "end": "2023-05-02T07:19:30.771Z",
-          "duration": 43838,
+          "start": "2023-05-03T07:17:40.314Z",
+          "end": "2023-05-03T07:18:25.446Z",
+          "duration": 45132,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683011970769.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683098305445.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -89,12 +89,12 @@
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-02T07:19:30.772Z",
-          "end": "2023-05-02T07:20:14.317Z",
-          "duration": 43545,
+          "start": "2023-05-03T07:18:25.446Z",
+          "end": "2023-05-03T07:19:09.164Z",
+          "duration": 43718,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683012014316.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683098349163.jpeg"
           ],
           "error": {
             "type": "Error",
