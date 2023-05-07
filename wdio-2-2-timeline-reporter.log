@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-06T07:57:15.710Z",
-  "end": "2023-05-06T07:59:33.196Z",
+  "start": "2023-05-07T07:56:42.871Z",
+  "end": "2023-05-07T07:59:19.208Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "112.0.5615.139",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir26652_2093760378"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir43856_1677809761"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:65347"
+      "debuggerAddress": "localhost:56914"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,32 +29,32 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "7e83a9513c6ac91051c77b152560235e"
+    "sessionId": "b015d733de700d724c54bbb50af305df"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 137486,
+  "duration": 156337,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 137453,
-      "start": "2023-05-06T07:57:15.712Z",
-      "end": "2023-05-06T07:59:33.165Z",
+      "duration": 156302,
+      "start": "2023-05-07T07:56:42.874Z",
+      "end": "2023-05-07T07:59:19.176Z",
       "tests": [
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-06T07:57:15.712Z",
-          "end": "2023-05-06T07:59:33.164Z",
-          "duration": 137452,
+          "start": "2023-05-07T07:56:42.874Z",
+          "end": "2023-05-07T07:59:19.175Z",
+          "duration": 156301,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683359973163.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683446359173.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "The element was not clickable within 30 seconds!",
-            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:62:14)\n    at Function.clickContinueButton (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\preference-selection-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:46:41)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "The element with selector \"//input[@type=\"checkbox\"]\" you are trying to pass into the execute method wasn't found",
+            "stack": "Error: The element with selector \"//input[@type=\"checkbox\"]\" you are trying to pass into the execute method wasn't found\n    at verify (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\index.js:310:23)\n    at Array.map (<anonymous>)\n    at verifyArgsAndStripIfElement (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\index.js:319:55)\n    at Browser.execute (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\execute.js:53:79)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:34)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.jsClick (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:58:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:49:15)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
