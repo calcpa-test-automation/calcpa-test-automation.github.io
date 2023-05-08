@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-07T07:15:07.089Z",
-  "end": "2023-05-07T07:19:16.679Z",
+  "start": "2023-05-08T02:49:58.289Z",
+  "end": "2023-05-08T02:53:53.137Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "112.0.5615.139",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir43856_1257960602"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir32416_886511089"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:56223"
+      "debuggerAddress": "localhost:59460"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,78 +29,58 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "9c73e8cf087d7659fe974d0904b24d56"
+    "sessionId": "f1d1d30eba3648dedafcf955f081d69d"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 249590,
+  "duration": 234848,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 249560,
-      "start": "2023-05-07T07:15:07.091Z",
-      "end": "2023-05-07T07:19:16.651Z",
+      "duration": 234822,
+      "start": "2023-05-08T02:49:58.291Z",
+      "end": "2023-05-08T02:53:53.113Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-07T07:15:07.091Z",
-          "end": "2023-05-07T07:17:03.271Z",
-          "duration": 116180,
-          "state": "failed",
+          "start": "2023-05-08T02:49:58.292Z",
+          "end": "2023-05-08T02:50:59.214Z",
+          "duration": 60922,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683443823269.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYf6N53AMDAwMDAwMDAwMDAwMDAwAAAA9EDc8rMTRrk9hDRJpc7_c-D9eEtrU1HEnrFHWOC2PNj4RQYr3LDLoQLz-QYyKEL4dPdPzoswnCIWUALqEgmeRY95K3RPah_91pLHOAVhBne-7kTITQnwZ5NyeeOwpKj45kqTJm7iREfgjp_yuqc1fMzUa9tbFvUdGf4UrlwpX9x-RasQadGq-OU_LHMBOxZfwSh8nn5-Kv-HfEfl6aTCbw9Lbam7Ir4h3VIrQEs5nJ8KvUYhqYRTEFGpRNJkz4yY3v9-lkd0kqI0oku3oJZiVeBLFoi-mrqpogoS9JojyL3DxNcP2m8vcaXBmYc8T0wv0eBpKc2dIvoYN0Aqz0dR2Q_ELmYdISdNpkeogzJqn9giGLrK9c_jmIEdtSLnTFN1KSALWRk4JbhaGTLEtWcExKZGrKF_VUWFZXHk88BqpA1ALnpPNT0nX9SBH1n2pBLaEZfuBANQf5K5RgUKdgOAgTxTf4XJ3hmgN_AQ8ukVmBjs01GCyEHtzy23ivYBTzUUyxI_-617Pm-7lUydQqIcHytd2S6Qc_sS4NQO4P1KgVd9cjhyIM5joik2RUAXk7a7S9_RQJgYxzpiGAmsyjPjlbLU4PCm5Tar326DPHQNKiIO58EANwKuxAZMuZOuDpl79ZYqfJGl6nM0hi8ZQFbWER9YC6PBp99p80ouOdrmipxGwsOPdiPFf4VCtoXqJCLQwbkkcezjGU9lIR17UqnRlj9b5VZpF0K6p9zJt_9zy4uaEwWwYq2G-b_9GCp4SEmBgSGS_vWAR28H0jX23W2oCWQjdAhfEgqZGF1pyLWBxqFt' within 60 seconds!",
-            "stack": "Error: The text 'Cart Summary' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/portal/login?returnNetwork=0DB2E0000009dbtWAA&returnUrl=%2FCalCPA%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAYf6N53AMDAwMDAwMDAwMDAwMDAwAAAA9EDc8rMTRrk9hDRJpc7_c-D9eEtrU1HEnrFHWOC2PNj4RQYr3LDLoQLz-QYyKEL4dPdPzoswnCIWUALqEgmeRY95K3RPah_91pLHOAVhBne-7kTITQnwZ5NyeeOwpKj45kqTJm7iREfgjp_yuqc1fMzUa9tbFvUdGf4UrlwpX9x-RasQadGq-OU_LHMBOxZfwSh8nn5-Kv-HfEfl6aTCbw9Lbam7Ir4h3VIrQEs5nJ8KvUYhqYRTEFGpRNJkz4yY3v9-lkd0kqI0oku3oJZiVeBLFoi-mrqpogoS9JojyL3DxNcP2m8vcaXBmYc8T0wv0eBpKc2dIvoYN0Aqz0dR2Q_ELmYdISdNpkeogzJqn9giGLrK9c_jmIEdtSLnTFN1KSALWRk4JbhaGTLEtWcExKZGrKF_VUWFZXHk88BqpA1ALnpPNT0nX9SBH1n2pBLaEZfuBANQf5K5RgUKdgOAgTxTf4XJ3hmgN_AQ8ukVmBjs01GCyEHtzy23ivYBTzUUyxI_-617Pm-7lUydQqIcHytd2S6Qc_sS4NQO4P1KgVd9cjhyIM5joik2RUAXk7a7S9_RQJgYxzpiGAmsyjPjlbLU4PCm5Tar326DPHQNKiIO58EANwKuxAZMuZOuDpl79ZYqfJGl6nM0hi8ZQFbWER9YC6PBp99p80ouOdrmipxGwsOPdiPFf4VCtoXqJCLQwbkkcezjGU9lIR17UqnRlj9b5VZpF0K6p9zJt_9zy4uaEwWwYq2G-b_9GCp4SEmBgSGS_vWAR28H0jX23W2oCWQjdAhfEgqZGF1pyLWBxqFt' within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayedWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:107:17)\n    at Function.verifyDetails (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\checkout-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:32:34)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683514259213.jpeg"
+          ]
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-07T07:17:03.273Z",
-          "end": "2023-05-07T07:17:49.095Z",
-          "duration": 45822,
-          "state": "failed",
+          "start": "2023-05-08T02:50:59.215Z",
+          "end": "2023-05-08T02:51:58.996Z",
+          "duration": 59781,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683443869094.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 30 seconds!",
-            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.enterTextWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:47:14)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:47:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683514318995.jpeg"
+          ]
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-07T07:17:49.095Z",
-          "end": "2023-05-07T07:18:32.882Z",
-          "duration": 43787,
-          "state": "failed",
+          "start": "2023-05-08T02:51:58.996Z",
+          "end": "2023-05-08T02:52:56.580Z",
+          "duration": 57584,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683443912881.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 30 seconds!",
-            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.enterTextWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:47:14)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:47:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683514376580.jpeg"
+          ]
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-05-07T07:18:32.882Z",
-          "end": "2023-05-07T07:19:16.650Z",
-          "duration": 43768,
-          "state": "failed",
+          "start": "2023-05-08T02:52:56.580Z",
+          "end": "2023-05-08T02:53:53.113Z",
+          "duration": 56533,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683443956650.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 30 seconds!",
-            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:24:17)\n    at Function.enterTextWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:47:14)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:47:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683514433113.jpeg"
+          ]
         }
       ],
       "hooks": []
@@ -110,8 +90,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 4,
+    "passed": 4,
+    "failed": 0,
     "skipped": 0
   }
 }
