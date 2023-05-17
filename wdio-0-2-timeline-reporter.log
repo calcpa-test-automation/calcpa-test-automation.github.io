@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-16T07:06:24.202Z",
-  "end": "2023-05-16T07:12:35.776Z",
+  "start": "2023-05-17T07:06:15.869Z",
+  "end": "2023-05-17T07:12:17.977Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
-    "browserVersion": "112.0.5615.139",
+    "browserVersion": "113.0.5672.93",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir37780_1644830888"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir34044_1018641359"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:63245"
+      "debuggerAddress": "localhost:57552"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,46 +29,60 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "ac9ba6916877a29385c8e2666aed8d3e"
+    "sessionId": "59059825ad3fc200c2c80b849c2af02e"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 371574,
+  "duration": 362108,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 371537,
-      "start": "2023-05-16T07:06:24.204Z",
-      "end": "2023-05-16T07:12:35.741Z",
+      "duration": 362067,
+      "start": "2023-05-17T07:06:15.872Z",
+      "end": "2023-05-17T07:12:17.939Z",
       "tests": [
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-16T07:06:24.204Z",
+          "start": "2023-05-17T07:06:15.872Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684220928140.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684307241966.jpeg"
           ]
         },
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-16T07:08:48.144Z",
+          "start": "2023-05-17T07:07:21.968Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684220997612.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684307328642.jpeg"
           ]
         },
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-16T07:09:57.612Z",
-          "end": "2023-05-16T07:12:35.739Z",
-          "duration": 158127,
-          "state": "passed",
+          "start": "2023-05-17T07:08:48.646Z",
+          "duration": 0,
+          "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684221155738.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684307395581.jpeg"
           ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
+          "start": "2023-05-17T07:09:55.582Z",
+          "end": "2023-05-17T07:12:17.938Z",
+          "duration": 142356,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1684307537936.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element with selector \"//input[@type=\"checkbox\"]\" you are trying to pass into the execute method wasn't found",
+            "stack": "Error: The element with selector \"//input[@type=\"checkbox\"]\" you are trying to pass into the execute method wasn't found\n    at verify (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\index.js:310:23)\n    at Array.map (<anonymous>)\n    at verifyArgsAndStripIfElement (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\index.js:319:55)\n    at Browser.execute (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\execute.js:53:79)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:34)\n    at runMicrotasks (<anonymous>)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.jsClick (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:58:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:53:15)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -78,8 +92,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
