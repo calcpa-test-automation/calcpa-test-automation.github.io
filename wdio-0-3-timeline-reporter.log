@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-30T04:33:39.422Z",
-  "end": "2023-05-30T04:34:38.618Z",
+  "start": "2023-05-31T18:01:53.700Z",
+  "end": "2023-05-31T18:11:55.813Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "113.0.5672.127",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41800_574978633"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir33624_887304310"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:54588"
+      "debuggerAddress": "localhost:52039"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,28 +29,60 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "178fd6c97b39c45332f49ae2e111a45e"
+    "sessionId": "a305416b6cc8314a4e9a0f5d76c8ee64"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 59196,
+  "duration": 602113,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 59158,
-      "start": "2023-05-30T04:33:39.424Z",
-      "end": "2023-05-30T04:34:38.582Z",
+      "duration": 602078,
+      "start": "2023-05-31T18:01:53.703Z",
+      "end": "2023-05-31T18:11:55.781Z",
       "tests": [
         {
           "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-05-30T04:33:39.424Z",
-          "end": "2023-05-30T04:34:38.581Z",
-          "duration": 59157,
-          "state": "passed",
+          "start": "2023-05-31T18:01:53.703Z",
+          "duration": 0,
+          "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685421278578.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685556273517.jpeg"
           ]
+        },
+        {
+          "title": "Add to Cart and Check SF for Draft Registration",
+          "start": "2023-05-31T18:04:33.522Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685556358730.jpeg"
+          ]
+        },
+        {
+          "title": "Add to Cart and Check SF for Draft Registration",
+          "start": "2023-05-31T18:05:58.731Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685556510091.jpeg"
+          ]
+        },
+        {
+          "title": "Add to Cart and Check SF for Draft Registration",
+          "start": "2023-05-31T18:08:30.093Z",
+          "end": "2023-05-31T18:11:55.780Z",
+          "duration": 205687,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685556715778.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 10 seconds!",
+            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:18:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:54:14)\n    at Function.clickProductsAndEventsTab (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\backend\\contact-page.js:14:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js:43:28)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -60,8 +92,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
