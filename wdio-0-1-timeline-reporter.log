@@ -1,16 +1,16 @@
 {
-  "start": "2023-06-01T18:54:40.465Z",
-  "end": "2023-06-01T18:59:20.659Z",
+  "start": "2023-06-01T19:04:55.429Z",
+  "end": "2023-06-01T19:09:58.336Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "113.0.5672.127",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Program Files (x86)\\scoped_dir57604_680342875"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir3128_2036980155"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:53095"
+      "debuggerAddress": "localhost:54931"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,82 +29,67 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "a4a72007f766579ff5debd04ce37b738"
+    "sessionId": "19d90080d1bc8a4bffc177f4e3577688"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 280194,
+  "duration": 302907,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 280185,
-      "start": "2023-06-01T18:54:40.469Z",
-      "end": "2023-06-01T18:59:20.654Z",
+      "duration": 302876,
+      "start": "2023-06-01T19:04:55.432Z",
+      "end": "2023-06-01T19:09:58.308Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:54:40.470Z",
-          "end": "2023-06-01T18:55:55.136Z",
-          "duration": 74666,
+          "start": "2023-06-01T19:04:55.432Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685646337472.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
+          "start": "2023-06-01T19:05:37.474Z",
+          "end": "2023-06-01T19:06:56.439Z",
+          "duration": 78965,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685645755134.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685646416438.jpeg"
           ]
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:55:55.138Z",
-          "end": "2023-06-01T18:56:57.332Z",
-          "duration": 62194,
+          "start": "2023-06-01T19:06:56.440Z",
+          "end": "2023-06-01T19:07:59.246Z",
+          "duration": 62806,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685645817332.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685646479246.jpeg"
           ]
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:56:57.333Z",
-          "end": "2023-06-01T18:58:00.579Z",
-          "duration": 63246,
+          "start": "2023-06-01T19:07:59.246Z",
+          "end": "2023-06-01T19:08:58.571Z",
+          "duration": 59325,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685645880579.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685646538571.jpeg"
           ]
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:58:00.579Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": []
-        },
-        {
-          "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:58:20.637Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": []
-        },
-        {
-          "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:58:40.642Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": []
-        },
-        {
-          "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-06-01T18:59:00.647Z",
-          "end": "2023-06-01T18:59:20.653Z",
-          "duration": 20006,
-          "state": "failed",
-          "screenshots": [],
-          "error": {
-            "type": "invalid session id",
-            "message": "invalid session id",
-            "stack": "invalid session id\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.openBrowserAndGoToUrl (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:143:17)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:74:19)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-06-01T19:08:58.571Z",
+          "end": "2023-06-01T19:09:58.307Z",
+          "duration": 59736,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685646598307.jpeg"
+          ]
         }
       ],
       "hooks": []
@@ -114,8 +99,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 3,
-    "failed": 1,
+    "passed": 4,
+    "failed": 0,
     "skipped": 0
   }
 }
