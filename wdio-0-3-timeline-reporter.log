@@ -1,16 +1,16 @@
 {
-  "start": "2023-06-04T03:35:05.658Z",
-  "end": "2023-06-04T03:42:08.006Z",
+  "start": "2023-06-04T04:03:05.906Z",
+  "end": "2023-06-04T04:04:10.566Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "113.0.5672.129",
     "chrome": {
       "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir54416_702840691"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir62040_1781041901"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:60264"
+      "debuggerAddress": "localhost:52015"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,78 +29,28 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "eb3685a7648eb65c9879c498409a8c03"
+    "sessionId": "4b338adb8f66ccdc32da31c48f787f41"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 422348,
+  "duration": 64660,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 422297,
-      "start": "2023-06-04T03:35:05.660Z",
-      "end": "2023-06-04T03:42:07.957Z",
+      "duration": 64604,
+      "start": "2023-06-04T04:03:05.908Z",
+      "end": "2023-06-04T04:04:10.512Z",
       "tests": [
         {
           "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:35:05.660Z",
-          "duration": 0,
-          "state": "pending",
+          "start": "2023-06-04T04:03:05.908Z",
+          "end": "2023-06-04T04:04:10.511Z",
+          "duration": 64603,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685849775150.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685851450510.jpeg"
           ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:36:15.153Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685849847122.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:37:27.126Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685849915226.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:38:35.228Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685849986148.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:39:46.149Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685850054967.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-04T03:40:54.971Z",
-          "end": "2023-06-04T03:42:07.956Z",
-          "duration": 72985,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1685850127954.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:18:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:54:14)\n    at Function.clickProductsAndEventsTab (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\backend\\contact-page.js:14:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js:44:28)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
         }
       ],
       "hooks": []
@@ -110,8 +60,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 1,
+    "passed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }
