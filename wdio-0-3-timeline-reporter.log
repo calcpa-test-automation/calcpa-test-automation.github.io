@@ -1,16 +1,16 @@
 {
-  "start": "2023-06-13T07:26:10.493Z",
-  "end": "2023-06-13T07:39:20.256Z",
+  "start": "2023-06-14T07:11:11.969Z",
+  "end": "2023-06-14T07:16:18.239Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.110",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir9048_919509903"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir44656_170211285"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:65287"
+      "debuggerAddress": "localhost:63370"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,96 +29,37 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "f0019bbdbf8bedb836a364c82b0d033d"
+    "sessionId": "5e3282ca9df0d32dc4d474ae1639678d"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 789763,
+  "duration": 306270,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 789708,
-      "start": "2023-06-13T07:26:10.496Z",
-      "end": "2023-06-13T07:39:20.204Z",
+      "duration": 306200,
+      "start": "2023-06-14T07:11:11.971Z",
+      "end": "2023-06-14T07:16:18.171Z",
       "tests": [
         {
           "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:26:10.496Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641244298.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:27:24.302Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641318647.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:28:38.654Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641393254.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:29:53.258Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641472257.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:31:12.267Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641556083.jpeg"
-          ]
-        },
-        {
-          "title": "Add to Cart and Check SF for Draft Registration",
-          "start": "2023-06-13T07:32:36.085Z",
-          "end": "2023-06-13T07:33:38.317Z",
-          "duration": 62232,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641618313.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 30 seconds!",
-            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:26:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:64:14)\n    at Function.clickCheckoutButton (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\cart-page.js:7:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js:34:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
-          "start": "2023-06-13T07:33:38.320Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641705748.jpeg"
-          ]
-        },
-        {
-          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
-          "start": "2023-06-13T07:35:05.749Z",
-          "end": "2023-06-13T07:39:20.202Z",
-          "duration": 254453,
+          "start": "2023-06-14T07:11:11.971Z",
+          "end": "2023-06-14T07:12:23.784Z",
+          "duration": 71813,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686641960200.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686726743778.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-06-14T07:12:23.786Z",
+          "end": "2023-06-14T07:16:18.170Z",
+          "duration": 234384,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1686726978169.jpeg"
           ]
         }
       ],
@@ -129,8 +70,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 1,
+    "passed": 2,
+    "failed": 0,
     "skipped": 0
   }
 }
