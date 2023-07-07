@@ -1,16 +1,16 @@
 {
-  "start": "2023-07-06T07:01:40.308Z",
-  "end": "2023-07-06T07:05:41.461Z",
+  "start": "2023-07-07T07:01:40.190Z",
+  "end": "2023-07-07T07:07:32.545Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.199",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir7192_1515140557"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir50064_1691077204"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:57098"
+      "debuggerAddress": "localhost:64974"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,62 +29,57 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "d064730871191dd4cff9b50bb5868cfc"
+    "sessionId": "87d6b51bab6e2613065aada923971b27"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 241153,
+  "duration": 352355,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 241125,
-      "start": "2023-07-06T07:01:40.311Z",
-      "end": "2023-07-06T07:05:41.436Z",
+      "duration": 352320,
+      "start": "2023-07-07T07:01:40.192Z",
+      "end": "2023-07-07T07:07:32.512Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-06T07:01:40.312Z",
-          "end": "2023-07-06T07:02:35.485Z",
-          "duration": 55173,
-          "state": "failed",
+          "start": "2023-07-07T07:01:40.192Z",
+          "end": "2023-07-07T07:04:18.130Z",
+          "duration": 157938,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688626955484.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/nqyvrecnnuqd/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/nqyvrecnnuqd/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688713458128.jpeg"
+          ]
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-06T07:02:35.485Z",
-          "end": "2023-07-06T07:03:39.390Z",
-          "duration": 63905,
+          "start": "2023-07-07T07:04:18.131Z",
+          "end": "2023-07-07T07:05:26.795Z",
+          "duration": 68664,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688627019389.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688713526794.jpeg"
           ]
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-06T07:03:39.390Z",
-          "end": "2023-07-06T07:04:40.835Z",
-          "duration": 61445,
+          "start": "2023-07-07T07:05:26.795Z",
+          "end": "2023-07-07T07:06:32.163Z",
+          "duration": 65368,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688627080835.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688713592163.jpeg"
           ]
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-06T07:04:40.835Z",
-          "end": "2023-07-06T07:05:41.436Z",
-          "duration": 60601,
+          "start": "2023-07-07T07:06:32.163Z",
+          "end": "2023-07-07T07:07:32.511Z",
+          "duration": 60348,
           "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688627141435.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1688713652511.jpeg"
           ]
         }
       ],
@@ -95,8 +90,8 @@
     "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 3,
-    "failed": 1,
+    "passed": 4,
+    "failed": 0,
     "skipped": 0
   }
 }
