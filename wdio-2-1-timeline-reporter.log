@@ -1,16 +1,16 @@
 {
-  "start": "2023-07-11T07:06:56.000Z",
-  "end": "2023-07-11T07:11:01.618Z",
+  "start": "2023-07-12T03:34:47.683Z",
+  "end": "2023-07-12T03:34:48.552Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.199",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir36036_1738432740"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41352_424283682"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:51549"
+      "debuggerAddress": "localhost:63265"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,69 +29,44 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "5008df871edb6233faabc4827732108b"
+    "sessionId": "1ef7cd6aeb23aff0195c05677eac3c5a"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 245618,
+  "duration": 869,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 245581,
-      "start": "2023-07-11T07:06:56.002Z",
-      "end": "2023-07-11T07:11:01.583Z",
+      "duration": 819,
+      "start": "2023-07-12T03:34:47.685Z",
+      "end": "2023-07-12T03:34:48.504Z",
       "tests": [
         {
-          "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-11T07:06:56.002Z",
-          "end": "2023-07-11T07:07:57.818Z",
-          "duration": 61816,
-          "state": "passed",
+          "title": "API Test",
+          "start": "2023-07-12T03:34:47.686Z",
+          "end": "2023-07-12T03:34:48.503Z",
+          "duration": 817,
+          "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059277817.jpeg"
-          ]
-        },
-        {
-          "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-11T07:07:57.819Z",
-          "end": "2023-07-11T07:08:59.834Z",
-          "duration": 62015,
-          "state": "passed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059339834.jpeg"
-          ]
-        },
-        {
-          "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-11T07:08:59.834Z",
-          "end": "2023-07-11T07:10:01.018Z",
-          "duration": 61184,
-          "state": "passed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059401017.jpeg"
-          ]
-        },
-        {
-          "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-07-11T07:10:01.018Z",
-          "end": "2023-07-11T07:11:01.582Z",
-          "duration": 60564,
-          "state": "passed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059461582.jpeg"
-          ]
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132888502.jpeg"
+          ],
+          "error": {
+            "type": "AssertionError",
+            "message": "expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200",
+            "stack": "AssertionError: expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js:33:29)"
+          }
         }
       ],
       "hooks": []
     }
   ],
   "specs": [
-    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js"
   ],
   "state": {
-    "passed": 4,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }

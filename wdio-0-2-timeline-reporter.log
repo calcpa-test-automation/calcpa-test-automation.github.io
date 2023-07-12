@@ -1,16 +1,16 @@
 {
-  "start": "2023-07-11T07:06:20.803Z",
-  "end": "2023-07-11T07:14:42.501Z",
+  "start": "2023-07-12T03:35:06.368Z",
+  "end": "2023-07-12T03:35:07.158Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.199",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir36036_1594668517"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41352_1177547997"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:51034"
+      "debuggerAddress": "localhost:63575"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,66 +29,44 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "1619a7e5ac76866df6c5f914ef01f759"
+    "sessionId": "bb5e94f74f0179a0b23ab306ddf16aa2"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 501698,
+  "duration": 790,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 501655,
-      "start": "2023-07-11T07:06:20.806Z",
-      "end": "2023-07-11T07:14:42.461Z",
+      "duration": 751,
+      "start": "2023-07-12T03:35:06.370Z",
+      "end": "2023-07-12T03:35:07.121Z",
       "tests": [
         {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-07-11T07:06:20.806Z",
-          "duration": 0,
-          "state": "pending",
+          "title": "API Test",
+          "start": "2023-07-12T03:35:06.370Z",
+          "end": "2023-07-12T03:35:07.121Z",
+          "duration": 751,
+          "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059266365.jpeg"
-          ]
-        },
-        {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-07-11T07:07:46.370Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059360034.jpeg"
-          ]
-        },
-        {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-07-11T07:09:20.038Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059512764.jpeg"
-          ]
-        },
-        {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-07-11T07:11:52.768Z",
-          "end": "2023-07-11T07:14:42.460Z",
-          "duration": 169692,
-          "state": "passed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689059682458.jpeg"
-          ]
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132907119.jpeg"
+          ],
+          "error": {
+            "type": "AssertionError",
+            "message": "expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200",
+            "stack": "AssertionError: expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js:33:29)"
+          }
         }
       ],
       "hooks": []
     }
   ],
   "specs": [
-    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js"
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }

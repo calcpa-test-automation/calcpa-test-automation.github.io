@@ -1,16 +1,16 @@
 {
-  "start": "2023-05-08T03:11:59.444Z",
-  "end": "2023-05-08T03:15:56.424Z",
+  "start": "2023-07-12T03:34:50.443Z",
+  "end": "2023-07-12T03:41:04.094Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
-    "browserVersion": "112.0.5615.139",
+    "browserVersion": "114.0.5735.199",
     "chrome": {
-      "chromedriverVersion": "112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir56652_2110640258"
+      "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41352_1321274366"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:64385"
+      "debuggerAddress": "localhost:63308"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,53 +29,99 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "ce577c2e9c46443e1bdb198e1e402f85"
+    "sessionId": "7024534f1a5634066905e2d78c34af6d"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 236980,
+  "duration": 373651,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 236950,
-      "start": "2023-05-08T03:11:59.446Z",
-      "end": "2023-05-08T03:15:56.396Z",
+      "duration": 373599,
+      "start": "2023-07-12T03:34:50.446Z",
+      "end": "2023-07-12T03:41:04.045Z",
       "tests": [
         {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-08T03:11:59.446Z",
-          "duration": 0,
-          "state": "pending",
+          "title": "Set Up New User and Log In",
+          "start": "2023-07-12T03:34:50.446Z",
+          "end": "2023-07-12T03:35:23.425Z",
+          "duration": 32979,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683515637311.jpeg"
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132923424.jpeg"
           ]
         },
         {
-          "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-05-08T03:13:57.316Z",
-          "end": "2023-05-08T03:15:56.395Z",
-          "duration": 119079,
-          "state": "failed",
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-07-12T03:35:23.426Z",
+          "end": "2023-07-12T03:35:51.314Z",
+          "duration": 27888,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1683515756393.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:16:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\utilities.js:52:14)\n    at Function.applyCode (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\pages\\frontend\\cart-page.js:11:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:50:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132951313.jpeg"
+          ]
+        },
+        {
+          "title": "Adds On-Demand to Cart from Event Detail Page",
+          "start": "2023-07-12T03:35:51.314Z",
+          "end": "2023-07-12T03:36:19.084Z",
+          "duration": 27770,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132979083.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Conferences to Cart from Event Detail Page",
+          "start": "2023-07-12T03:36:19.084Z",
+          "end": "2023-07-12T03:36:47.243Z",
+          "duration": 28159,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689133007242.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-07-12T03:36:47.243Z",
+          "end": "2023-07-12T03:37:15.719Z",
+          "duration": 28476,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689133035718.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-07-12T03:37:15.719Z",
+          "end": "2023-07-12T03:38:53.698Z",
+          "duration": 97979,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689133133695.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-07-12T03:38:53.700Z",
+          "end": "2023-07-12T03:41:04.044Z",
+          "duration": 130344,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689133264042.jpeg"
+          ]
         }
       ],
       "hooks": []
     }
   ],
   "specs": [
-    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js"
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 1,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
