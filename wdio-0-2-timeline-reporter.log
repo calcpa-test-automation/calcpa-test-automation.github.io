@@ -1,16 +1,16 @@
 {
-  "start": "2023-07-12T03:35:06.368Z",
-  "end": "2023-07-12T03:35:07.158Z",
+  "start": "2023-07-12T07:07:01.250Z",
+  "end": "2023-07-12T07:21:06.316Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.199",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41352_1177547997"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir54556_750071261"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:63575"
+      "debuggerAddress": "localhost:65174"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,44 +29,94 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "bb5e94f74f0179a0b23ab306ddf16aa2"
+    "sessionId": "35e7d8981b1f9722860495e19af17961"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 790,
+  "duration": 845066,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 751,
-      "start": "2023-07-12T03:35:06.370Z",
-      "end": "2023-07-12T03:35:07.121Z",
+      "duration": 844999,
+      "start": "2023-07-12T07:07:01.252Z",
+      "end": "2023-07-12T07:21:06.251Z",
       "tests": [
         {
-          "title": "API Test",
-          "start": "2023-07-12T03:35:06.370Z",
-          "end": "2023-07-12T03:35:07.121Z",
-          "duration": 751,
-          "state": "failed",
+          "title": "Add to Cart and Check SF for Draft Registration",
+          "start": "2023-07-12T07:07:01.252Z",
+          "end": "2023-07-12T07:08:22.492Z",
+          "duration": 81240,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132907119.jpeg"
-          ],
-          "error": {
-            "type": "AssertionError",
-            "message": "expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200",
-            "stack": "AssertionError: expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js:33:29)"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145702490.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:08:22.494Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145790997.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:09:50.999Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145881407.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:11:21.409Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145968592.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:12:48.595Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689146055327.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:14:15.328Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689146143712.jpeg"
+          ]
+        },
+        {
+          "title": "ECR2 - Purchases SHARE100, Then Someone Else Uses It To Purchase Event and Confirms Back-End",
+          "start": "2023-07-12T07:15:43.715Z",
+          "end": "2023-07-12T07:21:06.250Z",
+          "duration": 322535,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689146466248.jpeg"
+          ]
         }
       ],
       "hooks": []
     }
   ],
   "specs": [
-    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js"
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\back-end-validations.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 1,
+    "passed": 2,
+    "failed": 0,
     "skipped": 0
   }
 }

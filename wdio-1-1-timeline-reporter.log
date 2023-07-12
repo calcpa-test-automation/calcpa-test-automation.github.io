@@ -1,16 +1,16 @@
 {
-  "start": "2023-07-12T03:29:57.117Z",
-  "end": "2023-07-12T03:29:58.066Z",
+  "start": "2023-07-12T07:01:38.566Z",
+  "end": "2023-07-12T07:09:02.115Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "114.0.5735.199",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir41352_1552895122"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir54556_596349214"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59787"
+      "debuggerAddress": "localhost:60058"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,44 +29,99 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "6096fb33d08e825a342fb67f054674c7"
+    "sessionId": "1aeee0c24638f55635820aa5ac1fba64"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 949,
+  "duration": 443549,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 909,
-      "start": "2023-07-12T03:29:57.119Z",
-      "end": "2023-07-12T03:29:58.028Z",
+      "duration": 443509,
+      "start": "2023-07-12T07:01:38.569Z",
+      "end": "2023-07-12T07:09:02.078Z",
       "tests": [
         {
-          "title": "API Test",
-          "start": "2023-07-12T03:29:57.120Z",
-          "end": "2023-07-12T03:29:58.028Z",
-          "duration": 908,
-          "state": "failed",
+          "title": "Set Up New User and Log In",
+          "start": "2023-07-12T07:01:38.570Z",
+          "end": "2023-07-12T07:03:08.824Z",
+          "duration": 90254,
+          "state": "passed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689132598027.jpeg"
-          ],
-          "error": {
-            "type": "AssertionError",
-            "message": "expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200",
-            "stack": "AssertionError: expected Response{ domain: null, …(35), …(1) } to have status code 300 but got 200\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js:33:29)"
-          }
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145388822.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-07-12T07:03:08.825Z",
+          "end": "2023-07-12T07:03:37.736Z",
+          "duration": 28911,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145417734.jpeg"
+          ]
+        },
+        {
+          "title": "Adds On-Demand to Cart from Event Detail Page",
+          "start": "2023-07-12T07:03:37.736Z",
+          "end": "2023-07-12T07:04:08.183Z",
+          "duration": 30447,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145448182.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Conferences to Cart from Event Detail Page",
+          "start": "2023-07-12T07:04:08.183Z",
+          "end": "2023-07-12T07:04:36.511Z",
+          "duration": 28328,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145476509.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-07-12T07:04:36.511Z",
+          "end": "2023-07-12T07:05:06.260Z",
+          "duration": 29749,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145506258.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-07-12T07:05:06.260Z",
+          "end": "2023-07-12T07:06:54.894Z",
+          "duration": 108634,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145614892.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-07-12T07:06:54.896Z",
+          "end": "2023-07-12T07:09:02.076Z",
+          "duration": 127180,
+          "state": "passed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1689145742073.jpeg"
+          ]
         }
       ],
       "hooks": []
     }
   ],
   "specs": [
-    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\api-test.js"
+    "C:\\Users\\hi\\Desktop\\code\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 1,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
