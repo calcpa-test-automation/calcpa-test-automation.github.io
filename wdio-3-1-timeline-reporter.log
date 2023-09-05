@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-05T07:05:15.786Z",
-  "end": "2023-09-05T07:18:16.458Z",
+  "start": "2023-09-05T15:14:26.200Z",
+  "end": "2023-09-05T15:48:26.852Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "115.0.5790.171",
     "chrome": {
       "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19892_1547669755"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir10520_1566818448"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:64685"
+      "debuggerAddress": "localhost:57955"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,112 +29,216 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "e260c871fe2c37575c3c70cd63cd9113"
+    "sessionId": "50250a716c8581e167782dabf33064c5"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 780672,
+  "duration": 2040652,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 780587,
-      "start": "2023-09-05T07:05:15.803Z",
-      "end": "2023-09-05T07:18:16.390Z",
+      "duration": 2040581,
+      "start": "2023-09-05T15:14:26.215Z",
+      "end": "2023-09-05T15:48:26.796Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-09-05T07:05:15.804Z",
-          "end": "2023-09-05T07:05:49.095Z",
-          "duration": 33291,
+          "start": "2023-09-05T15:14:26.217Z",
+          "end": "2023-09-05T15:14:57.252Z",
+          "duration": 31035,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Webinars to Cart from Event Detail Page",
-          "start": "2023-09-05T07:05:49.096Z",
-          "end": "2023-09-05T07:06:21.234Z",
-          "duration": 32138,
-          "state": "passed",
-          "screenshots": []
+          "start": "2023-09-05T15:14:57.253Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693926980592.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-09-05T15:16:20.601Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927064383.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-09-05T15:17:44.385Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927148301.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-09-05T15:19:08.302Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927232410.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-09-05T15:20:32.412Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927317622.jpeg"
+          ]
+        },
+        {
+          "title": "Adds Webinars to Cart from Event Detail Page",
+          "start": "2023-09-05T15:21:57.624Z",
+          "end": "2023-09-05T15:23:22.479Z",
+          "duration": 84855,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927402473.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 60 seconds!",
+            "stack": "Error: The element was not clickable within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:39:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:77:14)\n    at Function.addToCart (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\event-detail-page-ecr2.js:9:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:40:41)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page",
-          "start": "2023-09-05T07:06:21.235Z",
-          "end": "2023-09-05T07:06:52.233Z",
-          "duration": 30998,
+          "start": "2023-09-05T15:23:22.481Z",
+          "end": "2023-09-05T15:23:51.626Z",
+          "duration": 29145,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page",
-          "start": "2023-09-05T07:06:52.233Z",
-          "end": "2023-09-05T07:07:23.122Z",
-          "duration": 30889,
+          "start": "2023-09-05T15:23:51.627Z",
+          "end": "2023-09-05T15:24:20.230Z",
+          "duration": 28603,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page",
-          "start": "2023-09-05T07:07:23.123Z",
-          "end": "2023-09-05T07:07:54.113Z",
-          "duration": 30990,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:07:54.113Z",
+          "start": "2023-09-05T15:24:20.230Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897732870.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927663392.jpeg"
           ]
         },
         {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:08:52.887Z",
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-09-05T15:27:43.401Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897789316.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927748340.jpeg"
           ]
         },
         {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:09:49.325Z",
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-09-05T15:29:08.343Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897840512.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693927952556.jpeg"
           ]
         },
         {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:10:40.523Z",
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-09-05T15:32:32.561Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897891464.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928036556.jpeg"
           ]
         },
         {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:11:31.471Z",
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-09-05T15:33:56.557Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897943533.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928239964.jpeg"
           ]
         },
         {
-          "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-05T07:12:23.545Z",
-          "end": "2023-09-05T07:13:14.980Z",
-          "duration": 51435,
+          "title": "Adds Chapter Events to Cart from Event Detail Page",
+          "start": "2023-09-05T15:37:19.969Z",
+          "end": "2023-09-05T15:38:43.828Z",
+          "duration": 83859,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693897994970.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928323825.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 60 seconds!",
+            "stack": "Error: The element was not clickable within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:39:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:77:14)\n    at Function.addToCart (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\event-detail-page-ecr2.js:9:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:40:41)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:38:43.828Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928374113.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:39:34.121Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928427010.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:40:27.013Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928473200.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:41:13.203Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928520369.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:42:00.373Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928567332.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-09-05T15:42:47.335Z",
+          "end": "2023-09-05T15:43:33.911Z",
+          "duration": 46576,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928613906.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -144,57 +248,57 @@
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:13:14.985Z",
+          "start": "2023-09-05T15:43:33.913Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898048646.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928660745.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:14:08.652Z",
+          "start": "2023-09-05T15:44:20.748Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898098960.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928707737.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:14:58.970Z",
+          "start": "2023-09-05T15:45:07.740Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898148706.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928756234.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:15:48.711Z",
+          "start": "2023-09-05T15:45:56.237Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898201406.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928802802.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:16:41.411Z",
+          "start": "2023-09-05T15:46:42.808Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898250901.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928858519.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-05T07:17:30.905Z",
-          "end": "2023-09-05T07:18:16.388Z",
-          "duration": 45483,
+          "start": "2023-09-05T15:47:38.523Z",
+          "end": "2023-09-05T15:48:26.795Z",
+          "duration": 48272,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693898296380.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1693928906791.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -210,8 +314,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 5,
-    "failed": 2,
+    "passed": 3,
+    "failed": 4,
     "skipped": 0
   }
 }
