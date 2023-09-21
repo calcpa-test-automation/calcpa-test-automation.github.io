@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-21T15:23:33.735Z",
-  "end": "2023-09-21T15:25:37.641Z",
+  "start": "2023-09-21T19:25:56.531Z",
+  "end": "2023-09-21T19:26:11.685Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.188",
     "chrome": {
       "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir15688_1417183981"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir13760_804007378"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:62581"
+      "debuggerAddress": "localhost:60010"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,133 +29,72 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "dc7eb0a7e4a8dc3cd9ef3c98a73a00d7"
+    "sessionId": "f35327ac6a1049526746defbba4bdc79"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 123906,
+  "duration": 15154,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 123822,
-      "start": "2023-09-21T15:23:33.741Z",
-      "end": "2023-09-21T15:25:37.563Z",
+      "duration": 14738,
+      "start": "2023-09-21T19:25:56.539Z",
+      "end": "2023-09-21T19:26:11.277Z",
       "tests": [
         {
           "title": "Visit Find CPE courses link from homepage",
-          "start": "2023-09-21T15:23:33.741Z",
-          "end": "2023-09-21T15:23:38.983Z",
-          "duration": 5242,
+          "start": "2023-09-21T19:25:56.539Z",
+          "end": "2023-09-21T19:26:00.571Z",
+          "duration": 4032,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Explore membership link from homepage",
-          "start": "2023-09-21T15:23:38.987Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309825472.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Explore membership link from homepage",
-          "start": "2023-09-21T15:23:45.476Z",
-          "end": "2023-09-21T15:23:46.751Z",
-          "duration": 1275,
+          "start": "2023-09-21T19:26:00.572Z",
+          "end": "2023-09-21T19:26:03.291Z",
+          "duration": 2719,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Pay my bill link from homepage",
-          "start": "2023-09-21T15:23:46.752Z",
-          "end": "2023-09-21T15:23:51.252Z",
-          "duration": 4500,
+          "start": "2023-09-21T19:26:03.292Z",
+          "end": "2023-09-21T19:26:06.623Z",
+          "duration": 3331,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:23:51.252Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309852872.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:24:12.881Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309858992.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:24:18.996Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309880644.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:24:40.651Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309902688.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:25:02.705Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309925173.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-09-21T15:25:25.181Z",
-          "end": "2023-09-21T15:25:31.968Z",
-          "duration": 6787,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695309931962.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/become-a-cpa\">...</a> is not clickable at point (99, 662). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/become-a-cpa\">...</a> is not clickable at point (99, 662). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-09-21T19:26:06.623Z",
+          "end": "2023-09-21T19:26:07.638Z",
+          "duration": 1015,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-09-21T15:25:31.968Z",
-          "end": "2023-09-21T15:25:33.881Z",
-          "duration": 1913,
+          "start": "2023-09-21T19:26:07.638Z",
+          "end": "2023-09-21T19:26:08.519Z",
+          "duration": 881,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Make a donation link from homepage",
-          "start": "2023-09-21T15:25:33.882Z",
-          "end": "2023-09-21T15:25:35.289Z",
-          "duration": 1407,
+          "start": "2023-09-21T19:26:08.519Z",
+          "end": "2023-09-21T19:26:09.380Z",
+          "duration": 861,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from homepage",
-          "start": "2023-09-21T15:25:35.289Z",
-          "end": "2023-09-21T15:25:37.562Z",
-          "duration": 2273,
+          "start": "2023-09-21T19:26:09.380Z",
+          "end": "2023-09-21T19:26:11.275Z",
+          "duration": 1895,
           "state": "passed",
           "screenshots": []
         }
@@ -167,8 +106,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js"
   ],
   "state": {
-    "passed": 6,
-    "failed": 1,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
