@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-23T23:29:01.174Z",
-  "end": "2023-09-23T23:39:40.568Z",
+  "start": "2023-09-24T06:03:38.280Z",
+  "end": "2023-09-24T06:07:38.612Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.188",
     "chrome": {
       "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6376_1640125430"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14820_1638039505"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:65438"
+      "debuggerAddress": "localhost:61825"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,772 +29,413 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "8d043527c624e0a835042b6e784aecde"
+    "sessionId": "b712b0088f7ee304c9b12093378fe339"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 639394,
+  "duration": 240332,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 639209,
-      "start": "2023-09-23T23:29:01.183Z",
-      "end": "2023-09-23T23:39:40.392Z",
+      "duration": 240138,
+      "start": "2023-09-24T06:03:38.286Z",
+      "end": "2023-09-24T06:07:38.424Z",
       "tests": [
         {
           "title": "Visit Current CPAs link from top nav bar",
-          "start": "2023-09-23T23:29:01.184Z",
-          "end": "2023-09-23T23:29:04.490Z",
-          "duration": 3306,
+          "start": "2023-09-24T06:03:38.286Z",
+          "end": "2023-09-24T06:03:43.077Z",
+          "duration": 4791,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:29:04.491Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511766934.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:29:26.939Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511789413.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:29:49.422Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511812606.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:30:12.611Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511835188.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:30:35.192Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511857964.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-09-23T23:30:57.969Z",
-          "end": "2023-09-23T23:31:20.467Z",
-          "duration": 22498,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511880462.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Were you once a CPA' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/membership/former-cpa' within twenty seconds!",
-            "stack": "Error: The text 'Were you once a CPA' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/membership/former-cpa' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:83:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-09-24T06:03:43.079Z",
+          "end": "2023-09-24T06:03:45.890Z",
+          "duration": 2811,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Retired CPAs link from top nav bar",
-          "start": "2023-09-23T23:31:20.468Z",
-          "end": "2023-09-23T23:31:23.010Z",
-          "duration": 2542,
+          "start": "2023-09-24T06:03:45.890Z",
+          "end": "2023-09-24T06:03:48.232Z",
+          "duration": 2342,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Temp out of Work CPAs link from top nav bar",
-          "start": "2023-09-23T23:31:23.011Z",
-          "end": "2023-09-23T23:31:25.192Z",
-          "duration": 2181,
+          "start": "2023-09-24T06:03:48.232Z",
+          "end": "2023-09-24T06:03:50.995Z",
+          "duration": 2763,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Accounting Educators link from top nav bar",
-          "start": "2023-09-23T23:31:25.192Z",
-          "end": "2023-09-23T23:31:27.222Z",
-          "duration": 2030,
+          "start": "2023-09-24T06:03:50.996Z",
+          "end": "2023-09-24T06:03:53.292Z",
+          "duration": 2296,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Professionals link from top nav bar",
-          "start": "2023-09-23T23:31:27.222Z",
-          "end": "2023-09-23T23:31:29.372Z",
-          "duration": 2150,
+          "start": "2023-09-24T06:03:53.293Z",
+          "end": "2023-09-24T06:03:55.862Z",
+          "duration": 2569,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit CPA Candidates link from top nav bar",
-          "start": "2023-09-23T23:31:29.372Z",
-          "end": "2023-09-23T23:31:32.736Z",
-          "duration": 3364,
+          "start": "2023-09-24T06:03:55.862Z",
+          "end": "2023-09-24T06:03:58.273Z",
+          "duration": 2411,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit College Students link from top nav bar",
-          "start": "2023-09-23T23:31:32.736Z",
-          "end": "2023-09-23T23:31:34.798Z",
-          "duration": 2062,
+          "start": "2023-09-24T06:03:58.274Z",
+          "end": "2023-09-24T06:04:00.673Z",
+          "duration": 2399,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Group Memberships link from top nav bar",
-          "start": "2023-09-23T23:31:34.798Z",
-          "end": "2023-09-23T23:31:37.376Z",
-          "duration": 2578,
+          "start": "2023-09-24T06:04:00.673Z",
+          "end": "2023-09-24T06:04:04.623Z",
+          "duration": 3950,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Chapters link from top nav bar",
-          "start": "2023-09-23T23:31:37.376Z",
-          "end": "2023-09-23T23:31:39.536Z",
-          "duration": 2160,
+          "start": "2023-09-24T06:04:04.624Z",
+          "end": "2023-09-24T06:04:07.255Z",
+          "duration": 2631,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Get involved link from top nav bar",
-          "start": "2023-09-23T23:31:39.536Z",
-          "end": "2023-09-23T23:31:41.600Z",
-          "duration": 2064,
+          "start": "2023-09-24T06:04:07.255Z",
+          "end": "2023-09-24T06:04:09.506Z",
+          "duration": 2251,
           "state": "passed",
           "screenshots": []
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:31:41.600Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511908201.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:31:48.205Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511914626.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:31:54.629Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511921485.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:32:01.488Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511928081.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:32:08.083Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511934363.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Committees link from top nav bar",
-          "start": "2023-09-23T23:32:14.366Z",
-          "end": "2023-09-23T23:32:21.051Z",
-          "duration": 6685,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511941047.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/membership/committees-and-sections\">...</a> is not clickable at point (108, 633). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/membership/committees-and-sections\">...</a> is not clickable at point (108, 633). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:82:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
         },
         {
           "title": "Visit Scholarships link from top nav bar",
-          "start": "2023-09-23T23:32:21.052Z",
-          "end": "2023-09-23T23:32:23.464Z",
-          "duration": 2412,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Connect link from top nav bar",
-          "start": "2023-09-23T23:32:23.464Z",
-          "end": "2023-09-23T23:32:31.590Z",
-          "duration": 8126,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit ListServes link from top nav bar",
-          "start": "2023-09-23T23:32:31.590Z",
-          "end": "2023-09-23T23:32:34.206Z",
-          "duration": 2616,
+          "start": "2023-09-24T06:04:09.506Z",
+          "end": "2023-09-24T06:04:11.912Z",
+          "duration": 2406,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Donate link from top nav bar",
-          "start": "2023-09-23T23:32:34.206Z",
-          "end": "2023-09-23T23:32:36.558Z",
-          "duration": 2352,
+          "start": "2023-09-24T06:04:11.912Z",
+          "end": "2023-09-24T06:04:14.487Z",
+          "duration": 2575,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:32:36.558Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511963530.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:32:43.533Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511970181.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:32:50.184Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511976762.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:32:56.765Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511983633.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:33:03.635Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511990105.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Forensic Services Section link from top nav bar",
-          "start": "2023-09-23T23:33:10.108Z",
-          "end": "2023-09-23T23:33:16.993Z",
-          "duration": 6885,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695511996990.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/membership/committees-and-sections/forensic-services\">...</a> is not clickable at point (125, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/membership/committees-and-sections/forensic-services\">...</a> is not clickable at point (125, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:82:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
           "title": "Visit Search our catalog link from top nav bar",
-          "start": "2023-09-23T23:33:16.994Z",
-          "end": "2023-09-23T23:33:20.448Z",
-          "duration": 3454,
+          "start": "2023-09-24T06:04:14.487Z",
+          "end": "2023-09-24T06:04:19.646Z",
+          "duration": 5159,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Conferences link from top nav bar",
-          "start": "2023-09-23T23:33:20.448Z",
-          "end": "2023-09-23T23:33:23.569Z",
-          "duration": 3121,
+          "start": "2023-09-24T06:04:19.646Z",
+          "end": "2023-09-24T06:04:23.410Z",
+          "duration": 3764,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Webinars link from top nav bar",
-          "start": "2023-09-23T23:33:23.570Z",
-          "end": "2023-09-23T23:33:27.196Z",
-          "duration": 3626,
+          "start": "2023-09-24T06:04:23.410Z",
+          "end": "2023-09-24T06:04:27.440Z",
+          "duration": 4030,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit On-demand link from top nav bar",
-          "start": "2023-09-23T23:33:27.196Z",
-          "end": "2023-09-23T23:33:30.833Z",
-          "duration": 3637,
+          "start": "2023-09-24T06:04:27.440Z",
+          "end": "2023-09-24T06:04:31.282Z",
+          "duration": 3842,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Events link from top nav bar",
-          "start": "2023-09-23T23:33:30.833Z",
-          "end": "2023-09-23T23:33:33.691Z",
-          "duration": 2858,
+          "start": "2023-09-24T06:04:31.282Z",
+          "end": "2023-09-24T06:04:34.471Z",
+          "duration": 3189,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:33:33.691Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512020778.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:33:40.780Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512027106.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:33:47.108Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512033429.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:33:53.431Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512039823.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:33:59.825Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512046262.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:06.266Z",
-          "end": "2023-09-23T23:34:12.756Z",
-          "duration": 6490,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512052753.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/education/onsite-firm-training\">...</a> is not clickable at point (95, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/education/onsite-firm-training\">...</a> is not clickable at point (95, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:82:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:12.756Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512059274.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:19.277Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512065677.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:25.679Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512072479.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:32.482Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512079133.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:39.136Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512085755.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Onsite training link from top nav bar",
-          "start": "2023-09-23T23:34:45.758Z",
-          "end": "2023-09-23T23:34:52.173Z",
-          "duration": 6415,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512092170.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/education/onsite-firm-training\">...</a> is not clickable at point (95, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/education/onsite-firm-training\">...</a> is not clickable at point (95, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:82:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
           "title": "Visit Grassroots link from top nav bar",
-          "start": "2023-09-23T23:34:52.173Z",
-          "end": "2023-09-23T23:34:54.236Z",
-          "duration": 2063,
+          "start": "2023-09-24T06:04:34.472Z",
+          "end": "2023-09-24T06:04:36.825Z",
+          "duration": 2353,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Fund the Future link from top nav bar",
-          "start": "2023-09-23T23:34:54.236Z",
-          "end": "2023-09-23T23:34:56.367Z",
-          "duration": 2131,
+          "start": "2023-09-24T06:04:36.825Z",
+          "end": "2023-09-24T06:04:39.038Z",
+          "duration": 2213,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:34:56.367Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512119164.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:35:19.170Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512142031.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:35:42.038Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512165236.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:36:05.242Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512188346.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:36:28.351Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512211666.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Policy Issues link from top nav bar",
-          "start": "2023-09-23T23:36:51.672Z",
-          "end": "2023-09-23T23:37:15.023Z",
-          "duration": 23351,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512235016.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Government Relations' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/' within twenty seconds!",
-            "stack": "Error: The text 'Government Relations' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:83:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
-        },
-        {
           "title": "Visit Support link from top nav bar",
-          "start": "2023-09-23T23:37:15.024Z",
-          "end": "2023-09-23T23:37:18.102Z",
-          "duration": 3078,
+          "start": "2023-09-24T06:04:39.038Z",
+          "end": "2023-09-24T06:04:41.321Z",
+          "duration": 2283,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2023-09-23T23:37:18.103Z",
-          "end": "2023-09-23T23:37:20.364Z",
-          "duration": 2261,
+          "start": "2023-09-24T06:04:41.321Z",
+          "end": "2023-09-24T06:04:44.289Z",
+          "duration": 2968,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Knowledge Hub link from top nav bar",
-          "start": "2023-09-23T23:37:20.364Z",
-          "end": "2023-09-23T23:37:25.449Z",
-          "duration": 5085,
+          "start": "2023-09-24T06:04:44.290Z",
+          "end": "2023-09-24T06:04:49.128Z",
+          "duration": 4838,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Daily Clips link from top nav bar",
-          "start": "2023-09-23T23:37:25.449Z",
-          "end": "2023-09-23T23:37:27.747Z",
-          "duration": 2298,
+          "start": "2023-09-24T06:04:49.128Z",
+          "end": "2023-09-24T06:04:51.899Z",
+          "duration": 2771,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:37:27.747Z",
+          "start": "2023-09-24T06:04:51.899Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512254278.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535499193.jpeg"
           ]
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:37:34.282Z",
+          "start": "2023-09-24T06:04:59.201Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512261756.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535506202.jpeg"
           ]
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:37:41.760Z",
+          "start": "2023-09-24T06:05:06.214Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512268384.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535513412.jpeg"
           ]
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:37:48.389Z",
+          "start": "2023-09-24T06:05:13.417Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512275159.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535520641.jpeg"
           ]
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:37:55.164Z",
+          "start": "2023-09-24T06:05:20.650Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512281813.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535527787.jpeg"
           ]
         },
         {
           "title": "Visit brainfood bytes link from top nav bar",
-          "start": "2023-09-23T23:38:01.818Z",
-          "end": "2023-09-23T23:38:13.172Z",
-          "duration": 11354,
+          "start": "2023-09-24T06:05:27.799Z",
+          "end": "2023-09-24T06:05:36.542Z",
+          "duration": 8743,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512293167.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535536536.jpeg"
           ],
           "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:79:23)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "type": "element click intercepted",
+            "message": "element click intercepted: Element <a class=\"not-button\" href=\"/whats-happening/brainfood-bytes\">...</a> is not clickable at point (85, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)",
+            "stack": "element click intercepted: Element <a class=\"not-button\" href=\"/whats-happening/brainfood-bytes\">...</a> is not clickable at point (85, 632). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js:82:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2023-09-23T23:38:13.173Z",
-          "end": "2023-09-23T23:38:16.166Z",
-          "duration": 2993,
+          "start": "2023-09-24T06:05:36.542Z",
+          "end": "2023-09-24T06:05:40.001Z",
+          "duration": 3459,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2023-09-23T23:38:16.166Z",
-          "end": "2023-09-23T23:38:20.119Z",
-          "duration": 3953,
+          "start": "2023-09-24T06:05:40.002Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535552880.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Upcoming Events link from top nav bar",
+          "start": "2023-09-24T06:05:52.895Z",
+          "end": "2023-09-24T06:05:59.137Z",
+          "duration": 6242,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For the Press link from top nav bar",
-          "start": "2023-09-23T23:38:20.119Z",
-          "end": "2023-09-23T23:38:22.428Z",
-          "duration": 2309,
+          "start": "2023-09-24T06:05:59.137Z",
+          "end": "2023-09-24T06:06:03.916Z",
+          "duration": 4779,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Career Options link from top nav bar",
-          "start": "2023-09-23T23:38:22.429Z",
-          "end": "2023-09-23T23:38:24.476Z",
-          "duration": 2047,
+          "start": "2023-09-24T06:06:03.917Z",
+          "end": "2023-09-24T06:06:06.616Z",
+          "duration": 2699,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Scholarships link from top nav bar",
-          "start": "2023-09-23T23:38:24.476Z",
-          "end": "2023-09-23T23:38:27.282Z",
-          "duration": 2806,
+          "start": "2023-09-24T06:06:06.617Z",
+          "end": "2023-09-24T06:06:09.318Z",
+          "duration": 2701,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit CPA Licensure link from top nav bar",
-          "start": "2023-09-23T23:38:27.283Z",
-          "end": "2023-09-23T23:38:29.830Z",
-          "duration": 2547,
+          "start": "2023-09-24T06:06:09.318Z",
+          "end": "2023-09-24T06:06:12.218Z",
+          "duration": 2900,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Ethics Exam link from top nav bar",
-          "start": "2023-09-23T23:38:29.830Z",
-          "end": "2023-09-23T23:38:32.228Z",
-          "duration": 2398,
+          "start": "2023-09-24T06:06:12.219Z",
+          "end": "2023-09-24T06:06:15.421Z",
+          "duration": 3202,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Salary Guide link from top nav bar",
-          "start": "2023-09-23T23:38:32.228Z",
-          "end": "2023-09-23T23:38:34.396Z",
-          "duration": 2168,
+          "start": "2023-09-24T06:06:15.421Z",
+          "end": "2023-09-24T06:06:18.310Z",
+          "duration": 2889,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Fund the Future link from top nav bar",
-          "start": "2023-09-23T23:38:34.397Z",
-          "end": "2023-09-23T23:38:37.205Z",
-          "duration": 2808,
+          "start": "2023-09-24T06:06:18.310Z",
+          "end": "2023-09-24T06:06:21.434Z",
+          "duration": 3124,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For Students link from top nav bar",
-          "start": "2023-09-23T23:38:37.205Z",
-          "end": "2023-09-23T23:38:40.287Z",
-          "duration": 3082,
+          "start": "2023-09-24T06:06:21.435Z",
+          "end": "2023-09-24T06:06:24.475Z",
+          "duration": 3040,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:38:40.287Z",
+          "start": "2023-09-24T06:06:24.475Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512327267.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535591838.jpeg"
           ]
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:38:47.272Z",
+          "start": "2023-09-24T06:06:31.843Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512334590.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535599206.jpeg"
           ]
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:38:54.594Z",
+          "start": "2023-09-24T06:06:39.214Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512341486.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535606733.jpeg"
           ]
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:39:01.492Z",
+          "start": "2023-09-24T06:06:46.742Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512348562.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535614140.jpeg"
           ]
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:39:08.569Z",
+          "start": "2023-09-24T06:06:54.150Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512355693.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535622475.jpeg"
           ]
         },
         {
           "title": "Visit For Candidates link from top nav bar",
-          "start": "2023-09-23T23:39:15.697Z",
-          "end": "2023-09-23T23:39:22.267Z",
-          "duration": 6570,
+          "start": "2023-09-24T06:07:02.482Z",
+          "end": "2023-09-24T06:07:13.373Z",
+          "duration": 10891,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695512362263.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535633359.jpeg"
           ],
           "error": {
             "type": "element click intercepted",
@@ -804,49 +445,41 @@
         },
         {
           "title": "Visit For Educators link from top nav bar",
-          "start": "2023-09-23T23:39:22.268Z",
-          "end": "2023-09-23T23:39:25.003Z",
-          "duration": 2735,
+          "start": "2023-09-24T06:07:13.376Z",
+          "end": "2023-09-24T06:07:17.358Z",
+          "duration": 3982,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For YEPs link from top nav bar",
-          "start": "2023-09-23T23:39:25.003Z",
-          "end": "2023-09-23T23:39:28.573Z",
-          "duration": 3570,
+          "start": "2023-09-24T06:07:17.358Z",
+          "end": "2023-09-24T06:07:21.064Z",
+          "duration": 3706,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2023-09-23T23:39:28.574Z",
-          "end": "2023-09-23T23:39:32.623Z",
-          "duration": 4049,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Help link from top nav bar",
-          "start": "2023-09-23T23:39:32.623Z",
-          "end": "2023-09-23T23:39:35.467Z",
-          "duration": 2844,
+          "start": "2023-09-24T06:07:21.065Z",
+          "end": "2023-09-24T06:07:31.328Z",
+          "duration": 10263,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from top nav bar",
-          "start": "2023-09-23T23:39:35.467Z",
-          "end": "2023-09-23T23:39:39.001Z",
-          "duration": 3534,
+          "start": "2023-09-24T06:07:31.329Z",
+          "end": "2023-09-24T06:07:36.283Z",
+          "duration": 4954,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit About Us link from top nav bar",
-          "start": "2023-09-23T23:39:39.002Z",
-          "end": "2023-09-23T23:39:40.391Z",
-          "duration": 1389,
+          "start": "2023-09-24T06:07:36.284Z",
+          "end": "2023-09-24T06:07:38.422Z",
+          "duration": 2138,
           "state": "passed",
           "screenshots": []
         }
@@ -858,8 +491,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile.js"
   ],
   "state": {
-    "passed": 41,
-    "failed": 8,
+    "passed": 39,
+    "failed": 2,
     "skipped": 0
   }
 }

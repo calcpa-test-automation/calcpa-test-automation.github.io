@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-23T23:39:44.838Z",
-  "end": "2023-09-23T23:39:45.922Z",
+  "start": "2023-09-24T06:08:17.302Z",
+  "end": "2023-09-24T06:08:21.093Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.188",
     "chrome": {
       "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6376_1061444835"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14820_268617446"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50509"
+      "debuggerAddress": "localhost:64363"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,26 +29,41 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "341fd81cb2955ba3a01d28b59b952b12"
+    "sessionId": "a706a901ec6e9470592975b08ecc6eb1"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 1084,
+  "duration": 3791,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 1001,
-      "start": "2023-09-23T23:39:44.847Z",
-      "end": "2023-09-23T23:39:45.848Z",
+      "duration": 3690,
+      "start": "2023-09-24T06:08:17.311Z",
+      "end": "2023-09-24T06:08:21.001Z",
       "tests": [
         {
           "title": "Visit Site",
-          "start": "2023-09-23T23:39:44.848Z",
-          "end": "2023-09-23T23:39:45.847Z",
-          "duration": 999,
+          "start": "2023-09-24T06:08:17.312Z",
+          "end": "2023-09-24T06:08:19.832Z",
+          "duration": 2520,
           "state": "passed",
           "screenshots": []
+        },
+        {
+          "title": "Visit Chapters link from top nav bar",
+          "start": "2023-09-24T06:08:19.833Z",
+          "end": "2023-09-24T06:08:21.000Z",
+          "duration": 1167,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535700996.jpeg"
+          ],
+          "error": {
+            "type": "move target out of bounds",
+            "message": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)",
+            "stack": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests.js:42:32)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -59,7 +74,7 @@
   ],
   "state": {
     "passed": 1,
-    "failed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
