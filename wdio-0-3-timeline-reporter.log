@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-24T06:01:13.157Z",
-  "end": "2023-09-24T06:06:50.873Z",
+  "start": "2023-09-24T07:30:20.294Z",
+  "end": "2023-09-24T07:35:57.213Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.188",
     "chrome": {
       "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14820_1877815616"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14552_1147634716"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:60665"
+      "debuggerAddress": "localhost:56690"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,79 +29,72 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "4b14814ead96cc491c400bb74e72f511"
+    "sessionId": "cde8e1a5e091595c23e16b2f72d1720b"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 337716,
+  "duration": 336919,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 337559,
-      "start": "2023-09-24T06:01:13.162Z",
-      "end": "2023-09-24T06:06:50.721Z",
+      "duration": 336833,
+      "start": "2023-09-24T07:30:20.298Z",
+      "end": "2023-09-24T07:35:57.131Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-09-24T06:01:13.162Z",
-          "end": "2023-09-24T06:01:53.961Z",
-          "duration": 40799,
+          "start": "2023-09-24T07:30:20.298Z",
+          "end": "2023-09-24T07:30:49.948Z",
+          "duration": 29650,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Webinars to Cart from Event Detail Page",
-          "start": "2023-09-24T06:01:53.964Z",
-          "end": "2023-09-24T06:02:23.864Z",
-          "duration": 29900,
+          "start": "2023-09-24T07:30:49.949Z",
+          "end": "2023-09-24T07:31:17.372Z",
+          "duration": 27423,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page",
-          "start": "2023-09-24T06:02:23.865Z",
-          "end": "2023-09-24T06:02:52.870Z",
-          "duration": 29005,
+          "start": "2023-09-24T07:31:17.372Z",
+          "end": "2023-09-24T07:31:43.790Z",
+          "duration": 26418,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page",
-          "start": "2023-09-24T06:02:52.871Z",
-          "end": "2023-09-24T06:03:20.559Z",
-          "duration": 27688,
+          "start": "2023-09-24T07:31:43.791Z",
+          "end": "2023-09-24T07:32:10.120Z",
+          "duration": 26329,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page",
-          "start": "2023-09-24T06:03:20.559Z",
-          "end": "2023-09-24T06:03:48.520Z",
-          "duration": 27961,
+          "start": "2023-09-24T07:32:10.120Z",
+          "end": "2023-09-24T07:32:36.445Z",
+          "duration": 26325,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2023-09-24T06:03:48.522Z",
-          "end": "2023-09-24T06:04:43.309Z",
-          "duration": 54787,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695535483307.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Function.joinAsCandidate (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:56:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:49:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-09-24T07:32:36.445Z",
+          "end": "2023-09-24T07:34:06.610Z",
+          "duration": 90165,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-09-24T06:04:43.311Z",
-          "end": "2023-09-24T06:06:50.719Z",
-          "duration": 127408,
+          "start": "2023-09-24T07:34:06.610Z",
+          "end": "2023-09-24T07:35:57.130Z",
+          "duration": 110520,
           "state": "passed",
           "screenshots": []
         }
@@ -113,8 +106,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 6,
-    "failed": 1,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
