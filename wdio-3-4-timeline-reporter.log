@@ -1,16 +1,16 @@
 {
-  "start": "2023-09-24T07:11:52.108Z",
-  "end": "2023-09-24T07:12:01.109Z",
+  "start": "2023-09-25T00:05:25.263Z",
+  "end": "2023-09-25T00:05:28.451Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.188",
     "chrome": {
       "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14552_846394052"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19704_842032164"
     },
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:54631"
+      "debuggerAddress": "localhost:63323"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,41 +29,26 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "6b6c8a260a402ee02a1ba952cf6fa0be"
+    "sessionId": "8a407d3c3c1e981bcf1e33368fb48714"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 9001,
+  "duration": 3188,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 8905,
-      "start": "2023-09-24T07:11:52.115Z",
-      "end": "2023-09-24T07:12:01.020Z",
+      "duration": 3034,
+      "start": "2023-09-25T00:05:25.268Z",
+      "end": "2023-09-25T00:05:28.302Z",
       "tests": [
         {
           "title": "Visit Site",
-          "start": "2023-09-24T07:11:52.115Z",
-          "end": "2023-09-24T07:11:53.831Z",
-          "duration": 1716,
+          "start": "2023-09-25T00:05:25.269Z",
+          "end": "2023-09-25T00:05:28.300Z",
+          "duration": 3031,
           "state": "passed",
           "screenshots": []
-        },
-        {
-          "title": "Visit Chapters link from top nav bar",
-          "start": "2023-09-24T07:11:53.831Z",
-          "end": "2023-09-24T07:12:01.019Z",
-          "duration": 7188,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695539521012.jpeg"
-          ],
-          "error": {
-            "type": "move target out of bounds",
-            "message": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests.js:42:32)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
         }
       ],
       "hooks": []
@@ -74,7 +59,7 @@
   ],
   "state": {
     "passed": 1,
-    "failed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }
