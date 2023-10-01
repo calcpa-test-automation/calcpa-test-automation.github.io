@@ -1,0 +1,82 @@
+{
+  "start": "2023-10-01T02:38:58.401Z",
+  "end": "2023-10-01T02:44:23.014Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "117.0.5938.132",
+    "chrome": {
+      "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir21716_175109814"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:51778"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "1af058b5113f5e36171bbe92fc97ab22"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "framework": "mocha",
+  "duration": 324613,
+  "suites": [
+    {
+      "title": "Sanity Checks",
+      "duration": 324511,
+      "start": "2023-10-01T02:38:58.415Z",
+      "end": "2023-10-01T02:44:22.926Z",
+      "tests": [
+        {
+          "title": "Set Up New User and Log In",
+          "start": "2023-10-01T02:38:58.416Z",
+          "end": "2023-10-01T02:39:50.002Z",
+          "duration": 51586,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2023-10-01T02:39:50.004Z",
+          "end": "2023-10-01T02:42:01.179Z",
+          "duration": 131175,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-10-01T02:42:01.181Z",
+          "end": "2023-10-01T02:44:22.924Z",
+          "duration": 141743,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}
