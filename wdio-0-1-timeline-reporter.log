@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-16T15:00:41.791Z",
-  "end": "2023-10-16T15:05:38.577Z",
+  "start": "2023-10-16T19:00:43.506Z",
+  "end": "2023-10-16T19:05:28.286Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.70",
     "chrome": {
       "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir15880_1828459744"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir7352_1942131701"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:63462"
+      "debuggerAddress": "localhost:52437"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,48 +30,55 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "2b34d4f474c39f6bcb7a38094117b62e"
+    "sessionId": "3011239d5e08c35a2a8e25b8e73adc15"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 296786,
+  "duration": 284780,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 296722,
-      "start": "2023-10-16T15:00:41.797Z",
-      "end": "2023-10-16T15:05:38.519Z",
+      "duration": 284689,
+      "start": "2023-10-16T19:00:43.520Z",
+      "end": "2023-10-16T19:05:28.209Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-10-16T15:00:41.797Z",
-          "end": "2023-10-16T15:01:58.495Z",
-          "duration": 76698,
-          "state": "passed",
-          "screenshots": []
+          "start": "2023-10-16T19:00:43.522Z",
+          "end": "2023-10-16T19:01:48.548Z",
+          "duration": 65026,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1697482908545.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/qaokgedyvuoq/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/qaokgedyvuoq/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-10-16T15:01:58.497Z",
-          "end": "2023-10-16T15:03:29.442Z",
-          "duration": 90945,
+          "start": "2023-10-16T19:01:48.550Z",
+          "end": "2023-10-16T19:03:14.254Z",
+          "duration": 85704,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-10-16T15:03:29.442Z",
-          "end": "2023-10-16T15:04:37.787Z",
-          "duration": 68345,
+          "start": "2023-10-16T19:03:14.256Z",
+          "end": "2023-10-16T19:04:23.376Z",
+          "duration": 69120,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-10-16T15:04:37.787Z",
-          "end": "2023-10-16T15:05:38.518Z",
-          "duration": 60731,
+          "start": "2023-10-16T19:04:23.376Z",
+          "end": "2023-10-16T19:05:28.208Z",
+          "duration": 64832,
           "state": "passed",
           "screenshots": []
         }
@@ -83,8 +90,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 4,
-    "failed": 0,
+    "passed": 3,
+    "failed": 1,
     "skipped": 0
   }
 }
