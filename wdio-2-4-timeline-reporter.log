@@ -1,16 +1,17 @@
 {
-  "start": "2023-09-24T07:10:41.436Z",
-  "end": "2023-09-24T07:10:45.336Z",
+  "start": "2023-10-16T07:08:37.496Z",
+  "end": "2023-10-16T07:08:39.442Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
-    "browserVersion": "116.0.5845.188",
+    "browserVersion": "118.0.5993.70",
     "chrome": {
-      "chromedriverVersion": "115.0.5790.170 (cc0d30c2ca5577520c8646671513241faa0bc105-refs/branch-heads/5790@{#1923})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir14552_944245216"
+      "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir4056_266889303"
     },
+    "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:54236"
+      "debuggerAddress": "localhost:61283"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -29,41 +30,26 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "04da8f148af0eb7754e02970e557d3aa"
+    "sessionId": "ee7e066d7e54c7567bbf35ffc7a38f26"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 3900,
+  "duration": 1946,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 3794,
-      "start": "2023-09-24T07:10:41.440Z",
-      "end": "2023-09-24T07:10:45.234Z",
+      "duration": 1859,
+      "start": "2023-10-16T07:08:37.502Z",
+      "end": "2023-10-16T07:08:39.361Z",
       "tests": [
         {
           "title": "Visit Site",
-          "start": "2023-09-24T07:10:41.440Z",
-          "end": "2023-09-24T07:10:43.526Z",
-          "duration": 2086,
+          "start": "2023-10-16T07:08:37.502Z",
+          "end": "2023-10-16T07:08:39.361Z",
+          "duration": 1859,
           "state": "passed",
           "screenshots": []
-        },
-        {
-          "title": "Visit Chapters link from top nav bar",
-          "start": "2023-09-24T07:10:43.526Z",
-          "end": "2023-09-24T07:10:45.233Z",
-          "duration": 1707,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1695539445229.jpeg"
-          ],
-          "error": {
-            "type": "move target out of bounds",
-            "message": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)",
-            "stack": "move target out of bounds\n  (Session info: chrome=116.0.5845.188)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests.js:42:32)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
         }
       ],
       "hooks": []
@@ -74,7 +60,7 @@
   ],
   "state": {
     "passed": 1,
-    "failed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }
