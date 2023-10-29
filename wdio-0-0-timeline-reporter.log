@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-29T19:00:09.342Z",
-  "end": "2023-10-29T19:01:03.579Z",
+  "start": "2023-10-29T23:00:09.464Z",
+  "end": "2023-10-29T23:01:18.925Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.118",
     "chrome": {
       "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir7972_1454702962"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6056_1571686446"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:52293"
+      "debuggerAddress": "localhost:56716"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,26 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "2471c6e72ffc7a2cfc58f1ef8fd2987c"
+    "sessionId": "2e9c0ac0ee350b3208e8971cb195856e"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 54237,
+  "duration": 69461,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 54088,
-      "start": "2023-10-29T19:00:09.352Z",
-      "end": "2023-10-29T19:01:03.440Z",
+      "duration": 69376,
+      "start": "2023-10-29T23:00:09.474Z",
+      "end": "2023-10-29T23:01:18.850Z",
       "tests": [
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-10-29T19:00:09.353Z",
-          "end": "2023-10-29T19:01:03.436Z",
-          "duration": 54083,
-          "state": "passed",
-          "screenshots": []
+          "start": "2023-10-29T23:00:09.474Z",
+          "end": "2023-10-29T23:01:18.849Z",
+          "duration": 69375,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1698620478846.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/oyytomsdknlk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/oyytomsdknlk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:26:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -59,8 +66,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
