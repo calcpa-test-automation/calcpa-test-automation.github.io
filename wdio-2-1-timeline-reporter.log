@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-30T23:04:39.594Z",
-  "end": "2023-10-30T23:04:47.953Z",
+  "start": "2023-10-31T07:04:45.913Z",
+  "end": "2023-10-31T07:04:59.427Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.118",
     "chrome": {
       "chromedriverVersion": "117.0.5938.92 (67649b10b92bb182fba357831ef7dd6a1baa5648-refs/branch-heads/5938_62@{#14})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir340_1634192127"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19288_876260792"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:60642"
+      "debuggerAddress": "localhost:64693"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,26 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "81a30a55d83200bdf28bba25a8cfe92a"
+    "sessionId": "e5acdcce84e1d452730f57545389c841"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 8359,
+  "duration": 13514,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 8261,
-      "start": "2023-10-30T23:04:39.599Z",
-      "end": "2023-10-30T23:04:47.860Z",
+      "duration": 13386,
+      "start": "2023-10-31T07:04:45.934Z",
+      "end": "2023-10-31T07:04:59.320Z",
       "tests": [
         {
           "title": "Join as student",
-          "start": "2023-10-30T23:04:39.600Z",
-          "end": "2023-10-30T23:04:47.858Z",
-          "duration": 8258,
-          "state": "passed",
-          "screenshots": []
+          "start": "2023-10-31T07:04:45.935Z",
+          "end": "2023-10-31T07:04:59.319Z",
+          "duration": 13384,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1698735899316.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 10 seconds!",
+            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\student-join.js:33:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -59,8 +66,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\student-join.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
