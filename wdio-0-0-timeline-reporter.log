@@ -1,17 +1,17 @@
 {
-  "start": "2023-11-18T20:00:40.883Z",
-  "end": "2023-11-18T20:02:01.958Z",
+  "start": "2023-11-19T00:00:10.570Z",
+  "end": "2023-11-19T00:01:30.155Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.160",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir12480_112558149"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16768_2098373880"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:57188"
+      "debuggerAddress": "localhost:62491"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,32 +30,32 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "b5d2b5e8cde99738cbfd8aed1d3d883d"
+    "sessionId": "7e69336588970d49d9d0e7cc339404f5"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 81075,
+  "duration": 79585,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 81007,
-      "start": "2023-11-18T20:00:40.891Z",
-      "end": "2023-11-18T20:02:01.898Z",
+      "duration": 79500,
+      "start": "2023-11-19T00:00:10.587Z",
+      "end": "2023-11-19T00:01:30.087Z",
       "tests": [
         {
           "title": "ECR2 - Purchases SHARE100, Then Uses It To Purchase Event",
-          "start": "2023-11-18T20:00:40.892Z",
-          "end": "2023-11-18T20:02:01.897Z",
-          "duration": 81005,
+          "start": "2023-11-19T00:00:10.589Z",
+          "end": "2023-11-19T00:01:30.085Z",
+          "duration": 79496,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700337721895.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700352090080.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/fxooraypbkto/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/fxooraypbkto/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:26:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/xfshkulxxzpr/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/xfshkulxxzpr/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in-ecr2.js:26:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
