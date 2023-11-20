@@ -1,17 +1,17 @@
 {
-  "start": "2023-11-19T20:07:30.539Z",
-  "end": "2023-11-19T20:10:38.844Z",
+  "start": "2023-11-20T00:08:55.042Z",
+  "end": "2023-11-20T00:11:06.391Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.160",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir11664_1403849779"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir15676_1394847701"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50872"
+      "debuggerAddress": "localhost:57410"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,169 +30,153 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "8d501387de82fa8c28f80cab032ac645"
+    "sessionId": "f744b8a991eb3a14fb6b54d3e70daee2"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 188305,
+  "duration": 131349,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 188235,
-      "start": "2023-11-19T20:07:30.559Z",
-      "end": "2023-11-19T20:10:38.794Z",
+      "duration": 131274,
+      "start": "2023-11-20T00:08:55.052Z",
+      "end": "2023-11-20T00:11:06.326Z",
       "tests": [
         {
           "title": "Visit Find CPE courses link from homepage",
-          "start": "2023-11-19T20:07:30.561Z",
-          "end": "2023-11-19T20:07:37.259Z",
-          "duration": 6698,
+          "start": "2023-11-20T00:08:55.053Z",
+          "end": "2023-11-20T00:08:59.305Z",
+          "duration": 4252,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Explore membership link from homepage",
-          "start": "2023-11-19T20:07:37.260Z",
-          "end": "2023-11-19T20:07:39.975Z",
-          "duration": 2715,
+          "start": "2023-11-20T00:08:59.307Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700438945699.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Explore membership link from homepage",
+          "start": "2023-11-20T00:09:05.705Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700438951537.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Explore membership link from homepage",
+          "start": "2023-11-20T00:09:11.540Z",
+          "end": "2023-11-20T00:09:12.500Z",
+          "duration": 960,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:07:39.975Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424471696.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:07:51.700Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424493501.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:08:13.508Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424505115.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:08:25.117Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424526752.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:08:46.756Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424538165.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-11-19T20:08:58.166Z",
-          "end": "2023-11-19T20:09:19.693Z",
-          "duration": 21527,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424559689.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Login' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/' within twenty seconds!",
-            "stack": "Error: The text 'Login' was not displayed on the page 'https://magical-clafoutis-672f72.netlify.app/' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:35:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-11-20T00:09:12.500Z",
+          "end": "2023-11-20T00:09:15.208Z",
+          "duration": 2708,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Become a CPA link from homepage",
-          "start": "2023-11-19T20:09:19.693Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424580953.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-11-19T20:09:40.955Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424602262.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-11-19T20:10:02.265Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424623418.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-11-19T20:10:23.421Z",
-          "end": "2023-11-19T20:10:24.764Z",
-          "duration": 1343,
+          "start": "2023-11-20T00:09:15.208Z",
+          "end": "2023-11-20T00:09:16.458Z",
+          "duration": 1250,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-11-19T20:10:24.765Z",
-          "end": "2023-11-19T20:10:25.681Z",
-          "duration": 916,
+          "start": "2023-11-20T00:09:16.458Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700438977654.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Take the ethics exam link from homepage",
+          "start": "2023-11-20T00:09:37.658Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700438982959.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Take the ethics exam link from homepage",
+          "start": "2023-11-20T00:09:42.963Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700439004138.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Take the ethics exam link from homepage",
+          "start": "2023-11-20T00:10:04.142Z",
+          "end": "2023-11-20T00:10:05.513Z",
+          "duration": 1371,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Make a donation link from homepage",
-          "start": "2023-11-19T20:10:25.682Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424631237.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-11-19T20:10:31.240Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700424636612.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-11-19T20:10:36.614Z",
-          "end": "2023-11-19T20:10:37.586Z",
-          "duration": 972,
+          "start": "2023-11-20T00:10:05.513Z",
+          "end": "2023-11-20T00:10:06.408Z",
+          "duration": 895,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from homepage",
-          "start": "2023-11-19T20:10:37.586Z",
-          "end": "2023-11-19T20:10:38.793Z",
-          "duration": 1207,
+          "start": "2023-11-20T00:10:06.408Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700439017695.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Find a CPA link from homepage",
+          "start": "2023-11-20T00:10:17.698Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700439038693.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Find a CPA link from homepage",
+          "start": "2023-11-20T00:10:38.694Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700439044003.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Find a CPA link from homepage",
+          "start": "2023-11-20T00:10:44.005Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700439065001.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Find a CPA link from homepage",
+          "start": "2023-11-20T00:11:05.003Z",
+          "end": "2023-11-20T00:11:06.326Z",
+          "duration": 1323,
           "state": "passed",
           "screenshots": []
         }
@@ -204,8 +188,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js"
   ],
   "state": {
-    "passed": 6,
-    "failed": 1,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
