@@ -1,17 +1,17 @@
 {
-  "start": "2023-11-20T20:05:02.039Z",
-  "end": "2023-11-20T20:05:09.625Z",
+  "start": "2023-11-21T00:05:34.830Z",
+  "end": "2023-11-21T00:05:43.701Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.160",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir15612_2132640245"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir7120_467054184"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:52378"
+      "debuggerAddress": "localhost:56421"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,33 +30,26 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "33e37a3c3ec0689eb51a57c4dd0373bb"
+    "sessionId": "31c3e702338b3cff7888586e58e58e4a"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 7586,
+  "duration": 8871,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 7475,
-      "start": "2023-11-20T20:05:02.044Z",
-      "end": "2023-11-20T20:05:09.519Z",
+      "duration": 8795,
+      "start": "2023-11-21T00:05:34.835Z",
+      "end": "2023-11-21T00:05:43.630Z",
       "tests": [
         {
           "title": "Join as student",
-          "start": "2023-11-20T20:05:02.044Z",
-          "end": "2023-11-20T20:05:09.518Z",
-          "duration": 7474,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700510709514.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <span>...</span> is not clickable at point (176, 637). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=119.0.6045.160)",
-            "stack": "element click intercepted: Element <span>...</span> is not clickable at point (176, 637). Other element would receive the click: <iframe allowtransparency=\"true\" id=\"chat-widget-minimized\" name=\"chat-widget-minimized\" title=\"LiveChat chat widget\" scrolling=\"no\" style=\"width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; color-scheme: normal; display: block;\"></iframe>\n  (Session info: chrome=119.0.6045.160)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\student-join.js:33:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-11-21T00:05:34.835Z",
+          "end": "2023-11-21T00:05:43.629Z",
+          "duration": 8794,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -66,8 +59,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\student-join.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 1,
+    "passed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }
