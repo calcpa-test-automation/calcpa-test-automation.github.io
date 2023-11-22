@@ -1,17 +1,17 @@
 {
-  "start": "2023-11-21T20:00:15.662Z",
-  "end": "2023-11-21T20:04:53.898Z",
+  "start": "2023-11-22T00:00:39.762Z",
+  "end": "2023-11-22T00:05:10.073Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.160",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir17480_619509560"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir17552_1617621280"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:50303"
+      "debuggerAddress": "localhost:53995"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,77 +30,70 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "907eb6a6c1b666aa0872fb9833d4015d"
+    "sessionId": "a8421d48b63089d695dbcad14cb3694f"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 278236,
+  "duration": 270311,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 278147,
-      "start": "2023-11-21T20:00:15.669Z",
-      "end": "2023-11-21T20:04:53.816Z",
+      "duration": 270153,
+      "start": "2023-11-22T00:00:39.781Z",
+      "end": "2023-11-22T00:05:09.934Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-11-21T20:00:15.670Z",
-          "end": "2023-11-21T20:01:48.398Z",
-          "duration": 92728,
+          "start": "2023-11-22T00:00:39.783Z",
+          "end": "2023-11-22T00:01:56.399Z",
+          "duration": 76616,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700596908391.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700611316396.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/poihwpmfwnhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/poihwpmfwnhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/oaqlwiiafxsk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/oaqlwiiafxsk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-11-21T20:01:48.400Z",
-          "end": "2023-11-21T20:02:44.969Z",
-          "duration": 56569,
+          "start": "2023-11-22T00:01:56.400Z",
+          "end": "2023-11-22T00:02:57.832Z",
+          "duration": 61432,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700596964966.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700611377830.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pzoyysqpgwxm/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pzoyysqpgwxm/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pthtvswfdqkk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pthtvswfdqkk/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-11-21T20:02:44.970Z",
-          "end": "2023-11-21T20:03:50.662Z",
-          "duration": 65692,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700597030660.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/vmoctxkirxac/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/vmoctxkirxac/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-11-22T00:02:57.832Z",
+          "end": "2023-11-22T00:04:11.119Z",
+          "duration": 73287,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2023-11-21T20:03:50.663Z",
-          "end": "2023-11-21T20:04:53.815Z",
-          "duration": 63152,
+          "start": "2023-11-22T00:04:11.119Z",
+          "end": "2023-11-22T00:05:09.929Z",
+          "duration": 58810,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700597093813.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1700611509926.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/yqtxmkbkigtg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/yqtxmkbkigtg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/blvbrxxiygdu/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/blvbrxxiygdu/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
@@ -111,8 +104,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js"
   ],
   "state": {
-    "passed": 0,
-    "failed": 4,
+    "passed": 1,
+    "failed": 3,
     "skipped": 0
   }
 }
