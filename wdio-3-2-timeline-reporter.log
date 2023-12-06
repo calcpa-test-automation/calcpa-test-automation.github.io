@@ -1,17 +1,17 @@
 {
-  "start": "2023-12-06T16:07:03.312Z",
-  "end": "2023-12-06T16:09:28.909Z",
+  "start": "2023-12-06T20:07:56.185Z",
+  "end": "2023-12-06T20:09:53.046Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.200",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir500_1165825895"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16040_421573742"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:51946"
+      "debuggerAddress": "localhost:57391"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,337 +30,328 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "13d6dde69611ee1b753bdacb887f25f6"
+    "sessionId": "64d9b4023ab39e25552eec3100ce13a7"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 145597,
+  "duration": 116861,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 145508,
-      "start": "2023-12-06T16:07:03.323Z",
-      "end": "2023-12-06T16:09:28.831Z",
+      "duration": 116721,
+      "start": "2023-12-06T20:07:56.193Z",
+      "end": "2023-12-06T20:09:52.914Z",
       "tests": [
         {
           "title": "Visit Current CPAs link from top nav bar",
-          "start": "2023-12-06T16:07:03.324Z",
-          "end": "2023-12-06T16:07:07.456Z",
-          "duration": 4132,
+          "start": "2023-12-06T20:07:56.194Z",
+          "end": "2023-12-06T20:08:00.677Z",
+          "duration": 4483,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Former CPAs link from top nav bar",
-          "start": "2023-12-06T16:07:07.456Z",
-          "end": "2023-12-06T16:07:10.485Z",
-          "duration": 3029,
+          "start": "2023-12-06T20:08:00.681Z",
+          "end": "2023-12-06T20:08:03.468Z",
+          "duration": 2787,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Retired CPAs link from top nav bar",
-          "start": "2023-12-06T16:07:10.486Z",
-          "end": "2023-12-06T16:07:13.969Z",
-          "duration": 3483,
+          "start": "2023-12-06T20:08:03.468Z",
+          "end": "2023-12-06T20:08:06.259Z",
+          "duration": 2791,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Temp out of Work CPAs link from top nav bar",
-          "start": "2023-12-06T16:07:13.969Z",
-          "end": "2023-12-06T16:07:17.452Z",
-          "duration": 3483,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Accounting Educators link from top nav bar",
-          "start": "2023-12-06T16:07:17.452Z",
-          "end": "2023-12-06T16:07:20.508Z",
-          "duration": 3056,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Professionals link from top nav bar",
-          "start": "2023-12-06T16:07:20.509Z",
-          "end": "2023-12-06T16:07:23.888Z",
-          "duration": 3379,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit CPA Candidates link from top nav bar",
-          "start": "2023-12-06T16:07:23.888Z",
-          "end": "2023-12-06T16:07:27.943Z",
-          "duration": 4055,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit College Students link from top nav bar",
-          "start": "2023-12-06T16:07:27.944Z",
-          "end": "2023-12-06T16:07:30.978Z",
-          "duration": 3034,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Group Memberships link from top nav bar",
-          "start": "2023-12-06T16:07:30.978Z",
-          "end": "2023-12-06T16:07:34.892Z",
-          "duration": 3914,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Chapters link from top nav bar",
-          "start": "2023-12-06T16:07:34.892Z",
-          "end": "2023-12-06T16:07:38.209Z",
-          "duration": 3317,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Get involved link from top nav bar",
-          "start": "2023-12-06T16:07:38.210Z",
-          "end": "2023-12-06T16:07:41.544Z",
-          "duration": 3334,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Scholarships link from top nav bar",
-          "start": "2023-12-06T16:07:41.544Z",
-          "end": "2023-12-06T16:07:46.323Z",
-          "duration": 4779,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Donate link from top nav bar",
-          "start": "2023-12-06T16:07:46.323Z",
-          "end": "2023-12-06T16:07:51.289Z",
-          "duration": 4966,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Search our catalog link from top nav bar",
-          "start": "2023-12-06T16:07:51.290Z",
-          "end": "2023-12-06T16:07:57.870Z",
-          "duration": 6580,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Conferences link from top nav bar",
-          "start": "2023-12-06T16:07:57.871Z",
-          "end": "2023-12-06T16:08:03.609Z",
-          "duration": 5738,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Webinars link from top nav bar",
-          "start": "2023-12-06T16:08:03.610Z",
-          "end": "2023-12-06T16:08:09.731Z",
-          "duration": 6121,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit On-demand link from top nav bar",
-          "start": "2023-12-06T16:08:09.731Z",
-          "end": "2023-12-06T16:08:15.438Z",
-          "duration": 5707,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Events link from top nav bar",
-          "start": "2023-12-06T16:08:15.438Z",
-          "end": "2023-12-06T16:08:19.701Z",
-          "duration": 4263,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Grassroots link from top nav bar",
-          "start": "2023-12-06T16:08:19.701Z",
-          "end": "2023-12-06T16:08:22.781Z",
-          "duration": 3080,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Fund the Future link from top nav bar",
-          "start": "2023-12-06T16:08:22.781Z",
-          "end": "2023-12-06T16:08:25.400Z",
-          "duration": 2619,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Support link from top nav bar",
-          "start": "2023-12-06T16:08:25.400Z",
-          "end": "2023-12-06T16:08:28.395Z",
-          "duration": 2995,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2023-12-06T16:08:28.396Z",
-          "end": "2023-12-06T16:08:31.086Z",
-          "duration": 2690,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Knowledge Hub link from top nav bar",
-          "start": "2023-12-06T16:08:31.086Z",
-          "end": "2023-12-06T16:08:36.809Z",
-          "duration": 5723,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Daily Clips link from top nav bar",
-          "start": "2023-12-06T16:08:36.809Z",
-          "end": "2023-12-06T16:08:39.931Z",
-          "duration": 3122,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit It's Material link from top nav bar",
-          "start": "2023-12-06T16:08:39.932Z",
-          "end": "2023-12-06T16:08:42.463Z",
-          "duration": 2531,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2023-12-06T16:08:42.463Z",
-          "end": "2023-12-06T16:08:46.433Z",
-          "duration": 3970,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit For the Press link from top nav bar",
-          "start": "2023-12-06T16:08:46.433Z",
-          "end": "2023-12-06T16:08:49.205Z",
-          "duration": 2772,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Career Options link from top nav bar",
-          "start": "2023-12-06T16:08:49.205Z",
-          "end": "2023-12-06T16:08:51.456Z",
-          "duration": 2251,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Scholarships link from top nav bar",
-          "start": "2023-12-06T16:08:51.456Z",
-          "end": "2023-12-06T16:08:53.632Z",
-          "duration": 2176,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit CPA Licensure link from top nav bar",
-          "start": "2023-12-06T16:08:53.632Z",
-          "end": "2023-12-06T16:08:55.858Z",
-          "duration": 2226,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Ethics Exam link from top nav bar",
-          "start": "2023-12-06T16:08:55.858Z",
-          "end": "2023-12-06T16:08:58.159Z",
-          "duration": 2301,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Salary Guide link from top nav bar",
-          "start": "2023-12-06T16:08:58.159Z",
-          "end": "2023-12-06T16:09:00.357Z",
-          "duration": 2198,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Fund the Future link from top nav bar",
-          "start": "2023-12-06T16:09:00.357Z",
-          "end": "2023-12-06T16:09:03.062Z",
+          "start": "2023-12-06T20:08:06.259Z",
+          "end": "2023-12-06T20:08:08.964Z",
           "duration": 2705,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Visit For Students link from top nav bar",
-          "start": "2023-12-06T16:09:03.062Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701878955510.jpeg"
-          ]
+          "title": "Visit Accounting Educators link from top nav bar",
+          "start": "2023-12-06T20:08:08.964Z",
+          "end": "2023-12-06T20:08:12.294Z",
+          "duration": 3330,
+          "state": "passed",
+          "screenshots": []
         },
         {
-          "title": "Visit For Students link from top nav bar",
-          "start": "2023-12-06T16:09:15.515Z",
-          "end": "2023-12-06T16:09:17.924Z",
+          "title": "Visit Professionals link from top nav bar",
+          "start": "2023-12-06T20:08:12.294Z",
+          "end": "2023-12-06T20:08:14.938Z",
+          "duration": 2644,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit CPA Candidates link from top nav bar",
+          "start": "2023-12-06T20:08:14.938Z",
+          "end": "2023-12-06T20:08:17.718Z",
+          "duration": 2780,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit College Students link from top nav bar",
+          "start": "2023-12-06T20:08:17.718Z",
+          "end": "2023-12-06T20:08:20.564Z",
+          "duration": 2846,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Group Memberships link from top nav bar",
+          "start": "2023-12-06T20:08:20.565Z",
+          "end": "2023-12-06T20:08:23.691Z",
+          "duration": 3126,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Chapters link from top nav bar",
+          "start": "2023-12-06T20:08:23.691Z",
+          "end": "2023-12-06T20:08:26.555Z",
+          "duration": 2864,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Get involved link from top nav bar",
+          "start": "2023-12-06T20:08:26.555Z",
+          "end": "2023-12-06T20:08:29.436Z",
+          "duration": 2881,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Scholarships link from top nav bar",
+          "start": "2023-12-06T20:08:29.436Z",
+          "end": "2023-12-06T20:08:31.906Z",
+          "duration": 2470,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Donate link from top nav bar",
+          "start": "2023-12-06T20:08:31.906Z",
+          "end": "2023-12-06T20:08:35.819Z",
+          "duration": 3913,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Search our catalog link from top nav bar",
+          "start": "2023-12-06T20:08:35.819Z",
+          "end": "2023-12-06T20:08:40.170Z",
+          "duration": 4351,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Conferences link from top nav bar",
+          "start": "2023-12-06T20:08:40.170Z",
+          "end": "2023-12-06T20:08:44.729Z",
+          "duration": 4559,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Webinars link from top nav bar",
+          "start": "2023-12-06T20:08:44.729Z",
+          "end": "2023-12-06T20:08:49.588Z",
+          "duration": 4859,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit On-demand link from top nav bar",
+          "start": "2023-12-06T20:08:49.589Z",
+          "end": "2023-12-06T20:08:55.205Z",
+          "duration": 5616,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Events link from top nav bar",
+          "start": "2023-12-06T20:08:55.205Z",
+          "end": "2023-12-06T20:09:00.454Z",
+          "duration": 5249,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Grassroots link from top nav bar",
+          "start": "2023-12-06T20:09:00.455Z",
+          "end": "2023-12-06T20:09:03.757Z",
+          "duration": 3302,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Fund the Future link from top nav bar",
+          "start": "2023-12-06T20:09:03.758Z",
+          "end": "2023-12-06T20:09:05.948Z",
+          "duration": 2190,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Support link from top nav bar",
+          "start": "2023-12-06T20:09:05.948Z",
+          "end": "2023-12-06T20:09:08.781Z",
+          "duration": 2833,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit California CPA Magazine link from top nav bar",
+          "start": "2023-12-06T20:09:08.782Z",
+          "end": "2023-12-06T20:09:11.298Z",
+          "duration": 2516,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Knowledge Hub link from top nav bar",
+          "start": "2023-12-06T20:09:11.298Z",
+          "end": "2023-12-06T20:09:15.879Z",
+          "duration": 4581,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Daily Clips link from top nav bar",
+          "start": "2023-12-06T20:09:15.879Z",
+          "end": "2023-12-06T20:09:18.288Z",
           "duration": 2409,
           "state": "passed",
           "screenshots": []
         },
         {
-          "title": "Visit For Educators link from top nav bar",
-          "start": "2023-12-06T16:09:17.924Z",
-          "end": "2023-12-06T16:09:20.355Z",
-          "duration": 2431,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit For YEPs link from top nav bar",
-          "start": "2023-12-06T16:09:20.355Z",
-          "end": "2023-12-06T16:09:22.422Z",
-          "duration": 2067,
+          "title": "Visit It's Material link from top nav bar",
+          "start": "2023-12-06T20:09:18.288Z",
+          "end": "2023-12-06T20:09:20.377Z",
+          "duration": 2089,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2023-12-06T16:09:22.422Z",
-          "end": "2023-12-06T16:09:26.154Z",
-          "duration": 3732,
+          "start": "2023-12-06T20:09:20.377Z",
+          "end": "2023-12-06T20:09:23.980Z",
+          "duration": 3603,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit For the Press link from top nav bar",
+          "start": "2023-12-06T20:09:23.981Z",
+          "end": "2023-12-06T20:09:26.168Z",
+          "duration": 2187,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Career Options link from top nav bar",
+          "start": "2023-12-06T20:09:26.168Z",
+          "end": "2023-12-06T20:09:28.397Z",
+          "duration": 2229,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Scholarships link from top nav bar",
+          "start": "2023-12-06T20:09:28.397Z",
+          "end": "2023-12-06T20:09:30.633Z",
+          "duration": 2236,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit CPA Licensure link from top nav bar",
+          "start": "2023-12-06T20:09:30.633Z",
+          "end": "2023-12-06T20:09:32.920Z",
+          "duration": 2287,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Ethics Exam link from top nav bar",
+          "start": "2023-12-06T20:09:32.920Z",
+          "end": "2023-12-06T20:09:35.022Z",
+          "duration": 2102,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Salary Guide link from top nav bar",
+          "start": "2023-12-06T20:09:35.022Z",
+          "end": "2023-12-06T20:09:37.115Z",
+          "duration": 2093,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Fund the Future link from top nav bar",
+          "start": "2023-12-06T20:09:37.115Z",
+          "end": "2023-12-06T20:09:39.723Z",
+          "duration": 2608,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit For Students link from top nav bar",
+          "start": "2023-12-06T20:09:39.723Z",
+          "end": "2023-12-06T20:09:42.105Z",
+          "duration": 2382,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit For Educators link from top nav bar",
+          "start": "2023-12-06T20:09:42.106Z",
+          "end": "2023-12-06T20:09:44.508Z",
+          "duration": 2402,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit For YEPs link from top nav bar",
+          "start": "2023-12-06T20:09:44.508Z",
+          "end": "2023-12-06T20:09:46.680Z",
+          "duration": 2172,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Upcoming Events link from top nav bar",
+          "start": "2023-12-06T20:09:46.680Z",
+          "end": "2023-12-06T20:09:50.218Z",
+          "duration": 3538,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from top nav bar",
-          "start": "2023-12-06T16:09:26.154Z",
-          "end": "2023-12-06T16:09:27.716Z",
-          "duration": 1562,
+          "start": "2023-12-06T20:09:50.218Z",
+          "end": "2023-12-06T20:09:51.778Z",
+          "duration": 1560,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit About Us link from top nav bar",
-          "start": "2023-12-06T16:09:27.716Z",
-          "end": "2023-12-06T16:09:28.831Z",
-          "duration": 1115,
+          "start": "2023-12-06T20:09:51.778Z",
+          "end": "2023-12-06T20:09:52.913Z",
+          "duration": 1135,
           "state": "passed",
           "screenshots": []
         }
