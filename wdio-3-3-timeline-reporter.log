@@ -1,17 +1,17 @@
 {
-  "start": "2023-12-07T16:08:41.943Z",
-  "end": "2023-12-07T16:14:14.314Z",
+  "start": "2023-12-07T20:09:04.802Z",
+  "end": "2023-12-07T20:09:21.171Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "119.0.6045.200",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir13044_1070959406"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6248_2065477099"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59376"
+      "debuggerAddress": "localhost:49214"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,334 +30,74 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "5410bfb7053cdfb28f7091cc65254e0d"
+    "sessionId": "10793eac8530a8ba43b76c728102f269"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 332371,
+  "duration": 16369,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 332293,
-      "start": "2023-12-07T16:08:41.953Z",
-      "end": "2023-12-07T16:14:14.246Z",
+      "duration": 16294,
+      "start": "2023-12-07T20:09:04.807Z",
+      "end": "2023-12-07T20:09:21.101Z",
       "tests": [
         {
           "title": "Visit Find CPE courses link from homepage",
-          "start": "2023-12-07T16:08:41.953Z",
-          "end": "2023-12-07T16:08:46.202Z",
-          "duration": 4249,
+          "start": "2023-12-07T20:09:04.807Z",
+          "end": "2023-12-07T20:09:08.134Z",
+          "duration": 3327,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Explore membership link from homepage",
-          "start": "2023-12-07T16:08:46.203Z",
-          "end": "2023-12-07T16:08:48.301Z",
-          "duration": 2098,
+          "start": "2023-12-07T20:09:08.134Z",
+          "end": "2023-12-07T20:09:09.361Z",
+          "duration": 1227,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:08:48.302Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965339905.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:08:59.908Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965351524.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:09:11.527Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965363051.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:09:23.052Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965373984.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:09:33.986Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965384965.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Pay my bill link from homepage",
-          "start": "2023-12-07T16:09:44.968Z",
-          "end": "2023-12-07T16:09:56.053Z",
-          "duration": 11085,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965396050.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-07T20:09:09.361Z",
+          "end": "2023-12-07T20:09:13.055Z",
+          "duration": 3694,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:09:56.054Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965407055.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:10:07.057Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965417902.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:10:17.904Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965428779.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:10:28.780Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965439700.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:10:39.704Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965450739.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Become a CPA link from homepage",
-          "start": "2023-12-07T16:10:50.741Z",
-          "end": "2023-12-07T16:11:01.629Z",
-          "duration": 10888,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965461628.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-07T20:09:13.055Z",
+          "end": "2023-12-07T20:09:15.079Z",
+          "duration": 2024,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:01.630Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965473496.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:13.498Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965484474.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:24.476Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965495375.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:35.377Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965506291.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:46.293Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965517255.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Take the ethics exam link from homepage",
-          "start": "2023-12-07T16:11:57.256Z",
-          "end": "2023-12-07T16:12:08.152Z",
-          "duration": 10896,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965528149.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-07T20:09:15.080Z",
+          "end": "2023-12-07T20:09:16.517Z",
+          "duration": 1437,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:08.153Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965539145.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:19.147Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965550028.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:30.030Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965555453.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:35.455Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965566305.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:46.307Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965577382.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Make a donation link from homepage",
-          "start": "2023-12-07T16:12:57.383Z",
-          "end": "2023-12-07T16:13:08.464Z",
-          "duration": 11081,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965588462.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-07T20:09:16.517Z",
+          "end": "2023-12-07T20:09:17.989Z",
+          "duration": 1472,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:13:08.464Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965599582.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:13:19.583Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965610516.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:13:30.517Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965621137.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:13:41.139Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965632213.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:13:52.216Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965643316.jpeg"
-          ]
-        },
-        {
-          "title": "Visit Find a CPA link from homepage",
-          "start": "2023-12-07T16:14:03.317Z",
-          "end": "2023-12-07T16:14:14.245Z",
-          "duration": 10928,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1701965654244.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The element was not clickable within 10 seconds!",
-            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js:34:19)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-07T20:09:17.989Z",
+          "end": "2023-12-07T20:09:21.100Z",
+          "duration": 3111,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -367,8 +107,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\website-tests-mobile2.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 5,
+    "passed": 7,
+    "failed": 0,
     "skipped": 0
   }
 }
