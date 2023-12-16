@@ -1,17 +1,17 @@
 {
-  "start": "2023-12-16T00:00:10.099Z",
-  "end": "2023-12-16T00:16:05.321Z",
+  "start": "2023-12-16T08:00:42.684Z",
+  "end": "2023-12-16T08:08:53.382Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.109",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16016_1089436483"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16256_1650164604"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:64557"
+      "debuggerAddress": "localhost:57103"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,94 +30,51 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "600e8059a251c7251ba69d676fa471de"
+    "sessionId": "b4fa805117de3341f3dd38ddde034fc6"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 955222,
+  "duration": 490698,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 955041,
-      "start": "2023-12-16T00:00:10.120Z",
-      "end": "2023-12-16T00:16:05.161Z",
+      "duration": 490464,
+      "start": "2023-12-16T08:00:42.693Z",
+      "end": "2023-12-16T08:08:53.157Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-12-16T00:00:10.122Z",
-          "end": "2023-12-16T00:02:25.038Z",
-          "duration": 134916,
+          "start": "2023-12-16T08:00:42.694Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702713783200.jpeg"
+          ]
+        },
+        {
+          "title": "Set Up New User and Log In",
+          "start": "2023-12-16T08:03:03.221Z",
+          "end": "2023-12-16T08:03:58.073Z",
+          "duration": 54852,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2023-12-16T00:02:25.041Z",
-          "end": "2023-12-16T00:05:01.504Z",
-          "duration": 156463,
+          "start": "2023-12-16T08:03:58.074Z",
+          "end": "2023-12-16T08:06:02.056Z",
+          "duration": 123982,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:05:01.505Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685159996.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:06:00.004Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685287100.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:08:07.108Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685427551.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:10:27.558Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685517819.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:11:57.822Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685677261.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:14:37.268Z",
-          "end": "2023-12-16T00:16:05.156Z",
-          "duration": 87888,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685765150.jpeg"
-          ],
-          "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription529:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"531:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel529:0\">...</div>\n  (Session info: chrome=120.0.6099.109)",
-            "stack": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription529:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"531:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel529:0\">...</div>\n  (Session info: chrome=120.0.6099.109)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:113:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-16T08:06:02.060Z",
+          "end": "2023-12-16T08:08:53.152Z",
+          "duration": 171092,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -127,8 +84,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 1,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }

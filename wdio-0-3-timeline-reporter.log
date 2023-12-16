@@ -1,17 +1,17 @@
 {
-  "start": "2023-12-16T00:04:14.766Z",
-  "end": "2023-12-16T00:20:40.998Z",
+  "start": "2023-12-16T08:05:30.084Z",
+  "end": "2023-12-16T08:13:06.216Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.109",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16016_1251812678"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16256_578756500"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:49953"
+      "debuggerAddress": "localhost:59063"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,94 +30,51 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "19fb0331e1a59e3c9512e1b425998d0a"
+    "sessionId": "f3c4173d299dde3725092c71b4d3c346"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 986232,
+  "duration": 456132,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 986123,
-      "start": "2023-12-16T00:04:14.783Z",
-      "end": "2023-12-16T00:20:40.906Z",
+      "duration": 456051,
+      "start": "2023-12-16T08:05:30.099Z",
+      "end": "2023-12-16T08:13:06.150Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-12-16T00:04:14.784Z",
-          "end": "2023-12-16T00:04:51.392Z",
-          "duration": 36608,
+          "start": "2023-12-16T08:05:30.101Z",
+          "end": "2023-12-16T08:06:31.721Z",
+          "duration": 61620,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2023-12-16T00:04:51.392Z",
-          "end": "2023-12-16T00:07:20.584Z",
-          "duration": 149192,
+          "start": "2023-12-16T08:06:31.722Z",
+          "end": "2023-12-16T08:08:45.370Z",
+          "duration": 133648,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:07:20.585Z",
+          "start": "2023-12-16T08:08:45.372Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685381496.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702714272249.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:09:41.503Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685514359.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:11:54.364Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685645549.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:14:05.556Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685777392.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:16:17.398Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685909135.jpeg"
-          ]
-        },
-        {
-          "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-16T00:18:29.141Z",
-          "end": "2023-12-16T00:20:40.904Z",
-          "duration": 131763,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702686040900.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Executive' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/' within twenty seconds!",
-            "stack": "Error: The text 'Executive' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:118:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2023-12-16T08:11:12.256Z",
+          "end": "2023-12-16T08:13:06.149Z",
+          "duration": 113893,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -127,8 +84,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 1,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }
