@@ -1,17 +1,17 @@
 {
-  "start": "2023-12-15T20:00:09.974Z",
-  "end": "2023-12-15T20:08:31.631Z",
+  "start": "2023-12-16T00:00:10.099Z",
+  "end": "2023-12-16T00:16:05.321Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.109",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir10544_957370158"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16016_1089436483"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59345"
+      "debuggerAddress": "localhost:64557"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,60 +30,94 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "0d7a55c45b3de2f18136beff31925463"
+    "sessionId": "600e8059a251c7251ba69d676fa471de"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 501657,
+  "duration": 955222,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 501528,
-      "start": "2023-12-15T20:00:10.018Z",
-      "end": "2023-12-15T20:08:31.546Z",
+      "duration": 955041,
+      "start": "2023-12-16T00:00:10.120Z",
+      "end": "2023-12-16T00:16:05.161Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2023-12-15T20:00:10.019Z",
-          "duration": 0,
-          "state": "pending",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702670535628.jpeg"
-          ]
-        },
-        {
-          "title": "Set Up New User and Log In",
-          "start": "2023-12-15T20:02:15.641Z",
-          "end": "2023-12-15T20:02:54.365Z",
-          "duration": 38724,
+          "start": "2023-12-16T00:00:10.122Z",
+          "end": "2023-12-16T00:02:25.038Z",
+          "duration": 134916,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2023-12-15T20:02:54.369Z",
-          "end": "2023-12-15T20:05:20.960Z",
-          "duration": 146591,
+          "start": "2023-12-16T00:02:25.041Z",
+          "end": "2023-12-16T00:05:01.504Z",
+          "duration": 156463,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-15T20:05:20.961Z",
+          "start": "2023-12-16T00:05:01.505Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702670785739.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685159996.jpeg"
           ]
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2023-12-15T20:06:25.748Z",
-          "end": "2023-12-15T20:08:31.545Z",
-          "duration": 125797,
-          "state": "passed",
-          "screenshots": []
+          "start": "2023-12-16T00:06:00.004Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685287100.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-12-16T00:08:07.108Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685427551.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-12-16T00:10:27.558Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685517819.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-12-16T00:11:57.822Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685677261.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2023-12-16T00:14:37.268Z",
+          "end": "2023-12-16T00:16:05.156Z",
+          "duration": 87888,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1702685765150.jpeg"
+          ],
+          "error": {
+            "type": "element click intercepted",
+            "message": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription529:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"531:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel529:0\">...</div>\n  (Session info: chrome=120.0.6099.109)",
+            "stack": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription529:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"531:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel529:0\">...</div>\n  (Session info: chrome=120.0.6099.109)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:113:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -93,8 +127,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 3,
-    "failed": 0,
+    "passed": 2,
+    "failed": 1,
     "skipped": 0
   }
 }
