@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-05T08:00:49.624Z",
-  "end": "2024-01-05T08:07:12.927Z",
+  "start": "2024-01-05T16:00:49.790Z",
+  "end": "2024-01-05T16:06:55.467Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6440_883410773"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir16708_880787039"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:63164"
+      "debuggerAddress": "localhost:53560"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,48 +30,55 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "4fac4ecc0076f3b1e86b1be1494ffe1c"
+    "sessionId": "1130572ddc1c14995f3ba34575788fe2"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 383303,
+  "duration": 365677,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 383119,
-      "start": "2024-01-05T08:00:49.633Z",
-      "end": "2024-01-05T08:07:12.752Z",
+      "duration": 365555,
+      "start": "2024-01-05T16:00:49.800Z",
+      "end": "2024-01-05T16:06:55.355Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-05T08:00:49.635Z",
-          "end": "2024-01-05T08:02:45.489Z",
-          "duration": 115854,
+          "start": "2024-01-05T16:00:49.801Z",
+          "end": "2024-01-05T16:03:35.099Z",
+          "duration": 165298,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-05T08:02:45.492Z",
-          "end": "2024-01-05T08:05:04.863Z",
-          "duration": 139371,
-          "state": "passed",
-          "screenshots": []
+          "start": "2024-01-05T16:03:35.104Z",
+          "end": "2024-01-05T16:04:48.687Z",
+          "duration": 73583,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704470688670.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pleccyqpabso/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/pleccyqpabso/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:35:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-05T08:05:04.882Z",
-          "end": "2024-01-05T08:07:12.748Z",
-          "duration": 127866,
+          "start": "2024-01-05T16:04:48.689Z",
+          "end": "2024-01-05T16:06:55.348Z",
+          "duration": 126659,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704442032730.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704470815336.jpeg"
           ],
           "error": {
-            "type": "element click intercepted",
-            "message": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription527:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"529:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel527:0\">...</div>\n  (Session info: chrome=120.0.6099.130)",
-            "stack": "element click intercepted: Element <button class=\"btn-calcpa\" data-aura-rendered-by=\"193:2;a\">...</button> is not clickable at point (153, 18). Other element would receive the click: <div role=\"alertdialog\" aria-describedby=\"toastDescription527:0\" data-key=\"success\" class=\"slds-theme--success slds-notify--toast forceToastMessage\" data-aura-rendered-by=\"529:0\" data-aura-class=\"forceToastMessage\" aria-labelledby=\"toastLabel527:0\">...</div>\n  (Session info: chrome=120.0.6099.130)\n    at getErrorFromResponseBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\utils.js:198:12)\n    at NodeJSRequest._request (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriver\\build\\request\\index.js:166:60)\n    at runMicrotasks (<anonymous>)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:68:14)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:113:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "type": "Error",
+            "message": "The element was not clickable within 10 seconds!",
+            "stack": "Error: The element was not clickable within 10 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadiness (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:31:17)\n    at Function.click (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:67:14)\n    at Function.fillInEmploymentDetails (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\modals\\about-you-form.js:18:15)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:97:30)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
@@ -82,8 +89,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 1,
+    "passed": 1,
+    "failed": 2,
     "skipped": 0
   }
 }
