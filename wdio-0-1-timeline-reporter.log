@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-05T20:00:47.175Z",
-  "end": "2024-01-05T20:06:49.223Z",
+  "start": "2024-01-06T00:00:16.086Z",
+  "end": "2024-01-06T00:06:47.583Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19072_1657180581"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir11756_470884126"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59556"
+      "debuggerAddress": "localhost:65514"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,57 +30,57 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "fe4a45c1c968124f0b70be568545549e"
+    "sessionId": "9bb17d010ed54a5b7e37813f741f65d5"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 362048,
+  "duration": 391497,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 361727,
-      "start": "2024-01-05T20:00:47.188Z",
-      "end": "2024-01-05T20:06:48.915Z",
+      "duration": 391321,
+      "start": "2024-01-06T00:00:16.092Z",
+      "end": "2024-01-06T00:06:47.413Z",
       "tests": [
         {
           "title": "Adds Webinars to Cart from Event Detail Page, Then Logs In",
-          "start": "2024-01-05T20:00:47.188Z",
-          "end": "2024-01-05T20:02:09.138Z",
-          "duration": 81950,
+          "start": "2024-01-06T00:00:16.093Z",
+          "end": "2024-01-06T00:02:09.747Z",
+          "duration": 113654,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704484929130.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704499329742.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/lvqgfltafqsg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/lvqgfltafqsg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Can't call getElementText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found",
+            "stack": "Error: Can't call getElementText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found\n    at implicitWait (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n    at async C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\refetchElement.js:29:16\n    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:41:37)\n    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.visitFirstEventDetail (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\find-event-page-ecr2.js:17:70)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:27:39)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Adds On-Demand to Cart from Event Detail Page, Then Logs In",
-          "start": "2024-01-05T20:02:09.141Z",
-          "end": "2024-01-05T20:03:17.383Z",
-          "duration": 68242,
+          "start": "2024-01-06T00:02:09.754Z",
+          "end": "2024-01-06T00:03:20.247Z",
+          "duration": 70493,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704484997314.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704499400171.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/lqhvsyabmesg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/lqhvsyabmesg/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "Can't call getElementText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found",
+            "stack": "Error: Can't call getElementText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found\n    at implicitWait (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n    at async C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\refetchElement.js:29:16\n    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:41:37)\n    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.visitFirstEventDetail (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\find-event-page-ecr2.js:17:70)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:27:39)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         },
         {
           "title": "Adds Conferences to Cart from Event Detail Page, Then Logs In",
-          "start": "2024-01-05T20:03:17.393Z",
-          "end": "2024-01-05T20:05:40.666Z",
-          "duration": 143273,
+          "start": "2024-01-06T00:03:20.252Z",
+          "end": "2024-01-06T00:05:31.237Z",
+          "duration": 130985,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704485140656.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704499531230.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -90,17 +90,17 @@
         },
         {
           "title": "Adds Chapter Events to Cart from Event Detail Page, Then Logs In",
-          "start": "2024-01-05T20:05:40.672Z",
-          "end": "2024-01-05T20:06:48.904Z",
-          "duration": 68232,
+          "start": "2024-01-06T00:05:31.240Z",
+          "end": "2024-01-06T00:06:47.409Z",
+          "duration": 76169,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704485208891.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704499607404.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Can't call getText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found",
-            "stack": "Error: Can't call getText on element with selector \"//a[contains(@href, \"/catalog/activity\")]\" because element wasn't found\n    at implicitWait (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n    at runMicrotasks (<anonymous>)\n    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n    at async Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Element.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Element.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Element.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Element.elementErrorHandlerCallback (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n    at Function.visitFirstEventDetail (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\find-event-page-ecr2.js:17:70)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:27:39)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+            "message": "The element was not clickable within 30 seconds!",
+            "stack": "Error: The element was not clickable within 30 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:39:17)\n    at Function.enterTextWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:62:14)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:79:19)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\add-to-cart-then-log-in.js:23:61)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
           }
         }
       ],
