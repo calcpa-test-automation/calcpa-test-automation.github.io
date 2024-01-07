@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-07T08:00:17.256Z",
-  "end": "2024-01-07T08:07:43.867Z",
+  "start": "2024-01-07T16:00:49.338Z",
+  "end": "2024-01-07T16:08:46.143Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir10416_301262925"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19516_157234867"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:49762"
+      "debuggerAddress": "localhost:57460"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,56 +30,42 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "899a4acb507ccf6a9c4c5eb0f3f46597"
+    "sessionId": "300c2370b1d474c8e2433ee94c62940d"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 446611,
+  "duration": 476805,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 446336,
-      "start": "2024-01-07T08:00:17.267Z",
-      "end": "2024-01-07T08:07:43.603Z",
+      "duration": 474077,
+      "start": "2024-01-07T16:00:49.345Z",
+      "end": "2024-01-07T16:08:43.422Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-07T08:00:17.267Z",
-          "end": "2024-01-07T08:02:36.945Z",
-          "duration": 139678,
+          "start": "2024-01-07T16:00:49.345Z",
+          "end": "2024-01-07T16:02:52.459Z",
+          "duration": 123114,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-07T08:02:36.948Z",
-          "end": "2024-01-07T08:03:48.149Z",
-          "duration": 71201,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704614628110.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/vxciewpfbpcc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/vxciewpfbpcc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:35:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2024-01-07T16:02:52.461Z",
+          "end": "2024-01-07T16:05:01.109Z",
+          "duration": 128648,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-07T08:03:48.154Z",
-          "end": "2024-01-07T08:07:43.601Z",
-          "duration": 235447,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704614863589.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "The text 'Executive' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/' within twenty seconds!",
-            "stack": "Error: The text 'Executive' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:118:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2024-01-07T16:05:01.118Z",
+          "end": "2024-01-07T16:08:43.410Z",
+          "duration": 222292,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -89,8 +75,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 2,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }
