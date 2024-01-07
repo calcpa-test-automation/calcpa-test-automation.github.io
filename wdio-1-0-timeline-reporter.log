@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-07T16:00:49.401Z",
-  "end": "2024-01-07T16:05:22.966Z",
+  "start": "2024-01-07T20:00:14.051Z",
+  "end": "2024-01-07T20:06:50.811Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19516_1689257659"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir9540_124995343"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:57461"
+      "debuggerAddress": "localhost:63637"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,56 +30,42 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "17f382164e1da5dec18c45e1803ad958"
+    "sessionId": "137b2298a3c4883ede8ab5e20ddf6053"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 273565,
+  "duration": 396760,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 273353,
-      "start": "2024-01-07T16:00:49.440Z",
-      "end": "2024-01-07T16:05:22.793Z",
+      "duration": 396058,
+      "start": "2024-01-07T20:00:14.060Z",
+      "end": "2024-01-07T20:06:50.118Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-07T16:00:49.442Z",
-          "end": "2024-01-07T16:02:52.624Z",
-          "duration": 123182,
+          "start": "2024-01-07T20:00:14.061Z",
+          "end": "2024-01-07T20:02:15.895Z",
+          "duration": 121834,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-07T16:02:52.626Z",
-          "end": "2024-01-07T16:04:02.669Z",
-          "duration": 70043,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704643442624.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/nteudnymfutf/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/nteudnymfutf/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:35:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2024-01-07T20:02:15.900Z",
+          "end": "2024-01-07T20:04:22.651Z",
+          "duration": 126751,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-07T16:04:02.673Z",
-          "end": "2024-01-07T16:05:22.789Z",
-          "duration": 80116,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704643522784.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/aoqabkroyefr/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/aoqabkroyefr/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:42:57)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2024-01-07T20:04:22.653Z",
+          "end": "2024-01-07T20:06:50.084Z",
+          "duration": 147431,
+          "state": "passed",
+          "screenshots": []
         }
       ],
       "hooks": []
@@ -89,8 +75,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 2,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }

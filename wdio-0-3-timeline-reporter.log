@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-07T16:04:41.570Z",
-  "end": "2024-01-07T16:11:27.803Z",
+  "start": "2024-01-07T20:03:27.258Z",
+  "end": "2024-01-07T20:08:43.112Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir19516_1125303157"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir9540_644026411"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59084"
+      "debuggerAddress": "localhost:65156"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,42 +30,49 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "cbc5b3e18255bc5b9545795bd1462edc"
+    "sessionId": "a032478317027d61be34ae68255031a0"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 406233,
+  "duration": 315854,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 406124,
-      "start": "2024-01-07T16:04:41.577Z",
-      "end": "2024-01-07T16:11:27.701Z",
+      "duration": 315022,
+      "start": "2024-01-07T20:03:27.263Z",
+      "end": "2024-01-07T20:08:42.285Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-07T16:04:41.577Z",
-          "end": "2024-01-07T16:05:30.660Z",
-          "duration": 49083,
+          "start": "2024-01-07T20:03:27.263Z",
+          "end": "2024-01-07T20:04:13.632Z",
+          "duration": 46369,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-07T16:05:30.660Z",
-          "end": "2024-01-07T16:08:52.996Z",
-          "duration": 202336,
+          "start": "2024-01-07T20:04:13.633Z",
+          "end": "2024-01-07T20:06:04.717Z",
+          "duration": 111084,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-07T16:08:53.004Z",
-          "end": "2024-01-07T16:11:27.700Z",
-          "duration": 154696,
-          "state": "passed",
-          "screenshots": []
+          "start": "2024-01-07T20:06:04.735Z",
+          "end": "2024-01-07T20:08:42.279Z",
+          "duration": 157544,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704658122210.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The element was not clickable within 60 seconds!",
+            "stack": "Error: The element was not clickable within 60 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForElementReadinessWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:39:17)\n    at Function.clickWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:77:14)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:98:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -75,8 +82,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 3,
-    "failed": 0,
+    "passed": 2,
+    "failed": 1,
     "skipped": 0
   }
 }
