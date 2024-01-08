@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-08T00:00:48.190Z",
-  "end": "2024-01-08T00:08:51.672Z",
+  "start": "2024-01-08T08:00:17.053Z",
+  "end": "2024-01-08T08:09:19.626Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir11220_1769035854"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir18880_1656774588"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:53913"
+      "debuggerAddress": "localhost:60846"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,47 +30,49 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "b99913003090396468db42135cebd8f6"
+    "sessionId": "3ec56d20467962be34024c0183d32bec"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 483482,
+  "duration": 542573,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 483312,
-      "start": "2024-01-08T00:00:48.216Z",
-      "end": "2024-01-08T00:08:51.528Z",
+      "duration": 542255,
+      "start": "2024-01-08T08:00:17.062Z",
+      "end": "2024-01-08T08:09:19.317Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-08T00:00:48.216Z",
-          "end": "2024-01-08T00:03:28.078Z",
-          "duration": 159862,
-          "state": "failed",
+          "start": "2024-01-08T08:00:17.063Z",
+          "duration": 0,
+          "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704672208061.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/kidkntbtcbhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/kidkntbtcbhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:27:45)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704700968249.jpeg"
+          ]
+        },
+        {
+          "title": "Set Up New User and Log In",
+          "start": "2024-01-08T08:02:48.280Z",
+          "end": "2024-01-08T08:04:05.566Z",
+          "duration": 77286,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-08T00:03:28.085Z",
-          "end": "2024-01-08T00:05:59.453Z",
-          "duration": 151368,
+          "start": "2024-01-08T08:04:05.577Z",
+          "end": "2024-01-08T08:06:32.139Z",
+          "duration": 146562,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-08T00:05:59.455Z",
-          "end": "2024-01-08T00:08:51.525Z",
-          "duration": 172070,
+          "start": "2024-01-08T08:06:32.139Z",
+          "end": "2024-01-08T08:09:19.306Z",
+          "duration": 167167,
           "state": "passed",
           "screenshots": []
         }
@@ -82,8 +84,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 1,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }

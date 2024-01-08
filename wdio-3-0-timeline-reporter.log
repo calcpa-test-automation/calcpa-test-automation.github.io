@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-08T00:00:48.192Z",
-  "end": "2024-01-08T00:08:52.776Z",
+  "start": "2024-01-08T08:00:17.052Z",
+  "end": "2024-01-08T08:13:53.455Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir11220_1240718139"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir18880_1657718000"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:53912"
+      "debuggerAddress": "localhost:60847"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,47 +30,67 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "ea1e37f9a4b81d3e876a7a8e047bdd46"
+    "sessionId": "ce5529e6839385c8f072551a7d28e4aa"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 484584,
+  "duration": 816403,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 484279,
-      "start": "2024-01-08T00:00:48.217Z",
-      "end": "2024-01-08T00:08:52.496Z",
+      "duration": 816328,
+      "start": "2024-01-08T08:00:17.060Z",
+      "end": "2024-01-08T08:13:53.388Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-08T00:00:48.218Z",
-          "end": "2024-01-08T00:03:27.786Z",
-          "duration": 159568,
-          "state": "failed",
-          "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704672207763.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/sobsixzthmre/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
-            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/sobsixzthmre/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:27:45)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
-          }
+          "start": "2024-01-08T08:00:17.061Z",
+          "end": "2024-01-08T08:01:55.341Z",
+          "duration": 98280,
+          "state": "passed",
+          "screenshots": []
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-08T00:03:27.796Z",
-          "end": "2024-01-08T00:06:07.775Z",
-          "duration": 159979,
+          "start": "2024-01-08T08:01:55.347Z",
+          "end": "2024-01-08T08:04:16.933Z",
+          "duration": 141586,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-08T00:06:07.776Z",
-          "end": "2024-01-08T00:08:52.488Z",
-          "duration": 164712,
+          "start": "2024-01-08T08:04:16.941Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704701195866.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-01-08T08:06:35.894Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704701330193.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-01-08T08:08:50.233Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704701489526.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-01-08T08:11:29.538Z",
+          "end": "2024-01-08T08:13:53.387Z",
+          "duration": 143849,
           "state": "passed",
           "screenshots": []
         }
@@ -82,8 +102,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 2,
-    "failed": 1,
+    "passed": 3,
+    "failed": 0,
     "skipped": 0
   }
 }
