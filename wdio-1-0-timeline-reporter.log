@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-07T20:00:14.051Z",
-  "end": "2024-01-07T20:06:50.811Z",
+  "start": "2024-01-08T00:00:48.190Z",
+  "end": "2024-01-08T00:08:51.672Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "120.0.6099.130",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir9540_124995343"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir11220_1769035854"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:63637"
+      "debuggerAddress": "localhost:53913"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,40 +30,47 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "137b2298a3c4883ede8ab5e20ddf6053"
+    "sessionId": "b99913003090396468db42135cebd8f6"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 396760,
+  "duration": 483482,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 396058,
-      "start": "2024-01-07T20:00:14.060Z",
-      "end": "2024-01-07T20:06:50.118Z",
+      "duration": 483312,
+      "start": "2024-01-08T00:00:48.216Z",
+      "end": "2024-01-08T00:08:51.528Z",
       "tests": [
         {
           "title": "Set Up New User and Log In",
-          "start": "2024-01-07T20:00:14.061Z",
-          "end": "2024-01-07T20:02:15.895Z",
-          "duration": 121834,
-          "state": "passed",
-          "screenshots": []
+          "start": "2024-01-08T00:00:48.216Z",
+          "end": "2024-01-08T00:03:28.078Z",
+          "duration": 159862,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704672208061.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Server responded to https://mailinator.com/api/v2/domains/private/inboxes/kidkntbtcbhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n",
+            "stack": "Error: Server responded to https://mailinator.com/api/v2/domains/private/inboxes/kidkntbtcbhc/messages/undefined?token=294aa0f449614e7aba6a3daca1062a18 with status code 500:\n\n    at Response.getBody (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\http-response-object\\lib\\index.js:41:23)\n    at Function.getActivationLink (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:27:38)\n    at Function.signUp (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\login-page.js:85:35)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:27:45)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         },
         {
           "title": "Joins from Front-End (Candidate)",
-          "start": "2024-01-07T20:02:15.900Z",
-          "end": "2024-01-07T20:04:22.651Z",
-          "duration": 126751,
+          "start": "2024-01-08T00:03:28.085Z",
+          "end": "2024-01-08T00:05:59.453Z",
+          "duration": 151368,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Joins from Front-End (Executive)",
-          "start": "2024-01-07T20:04:22.653Z",
-          "end": "2024-01-07T20:06:50.084Z",
-          "duration": 147431,
+          "start": "2024-01-08T00:05:59.455Z",
+          "end": "2024-01-08T00:08:51.525Z",
+          "duration": 172070,
           "state": "passed",
           "screenshots": []
         }
@@ -75,8 +82,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 3,
-    "failed": 0,
+    "passed": 2,
+    "failed": 1,
     "skipped": 0
   }
 }
