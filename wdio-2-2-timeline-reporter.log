@@ -1,17 +1,17 @@
 {
-  "start": "2024-01-10T08:14:53.477Z",
-  "end": "2024-01-10T08:23:28.833Z",
+  "start": "2024-01-14T00:09:04.126Z",
+  "end": "2024-01-14T00:16:19.500Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
-    "browserVersion": "120.0.6099.130",
+    "browserVersion": "120.0.6099.217",
     "chrome": {
       "chromedriverVersion": "119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir8280_906714367"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6712_1038919988"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:62856"
+      "debuggerAddress": "localhost:55707"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,240 +30,249 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "9e955c285c3afc76a3a7fc5a1561165b"
+    "sessionId": "3953b8a72c1f9d374eda5674cd0bdec4"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 515356,
+  "duration": 435374,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 515241,
-      "start": "2024-01-10T08:14:53.501Z",
-      "end": "2024-01-10T08:23:28.742Z",
+      "duration": 435226,
+      "start": "2024-01-14T00:09:04.168Z",
+      "end": "2024-01-14T00:16:19.394Z",
       "tests": [
         {
           "title": "Visit Current CPAs link from top nav bar",
-          "start": "2024-01-10T08:14:53.503Z",
-          "end": "2024-01-10T08:15:03.288Z",
-          "duration": 9785,
+          "start": "2024-01-14T00:09:04.178Z",
+          "end": "2024-01-14T00:09:12.432Z",
+          "duration": 8254,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Former CPAs link from top nav bar",
-          "start": "2024-01-10T08:15:03.290Z",
-          "end": "2024-01-10T08:15:14.118Z",
-          "duration": 10828,
+          "start": "2024-01-14T00:09:12.433Z",
+          "end": "2024-01-14T00:09:17.518Z",
+          "duration": 5085,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Retired CPAs link from top nav bar",
-          "start": "2024-01-10T08:15:14.118Z",
-          "end": "2024-01-10T08:15:24.052Z",
-          "duration": 9934,
+          "start": "2024-01-14T00:09:17.519Z",
+          "end": "2024-01-14T00:09:23.154Z",
+          "duration": 5635,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Temp out of Work CPAs link from top nav bar",
-          "start": "2024-01-10T08:15:24.055Z",
-          "end": "2024-01-10T08:15:33.966Z",
-          "duration": 9911,
+          "start": "2024-01-14T00:09:23.154Z",
+          "end": "2024-01-14T00:09:28.109Z",
+          "duration": 4955,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Accounting Educators link from top nav bar",
-          "start": "2024-01-10T08:15:33.968Z",
-          "end": "2024-01-10T08:15:40.541Z",
-          "duration": 6573,
+          "start": "2024-01-14T00:09:28.109Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705190981467.jpeg"
+          ]
+        },
+        {
+          "title": "Visit Accounting Educators link from top nav bar",
+          "start": "2024-01-14T00:09:41.474Z",
+          "end": "2024-01-14T00:09:45.712Z",
+          "duration": 4238,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Professionals link from top nav bar",
-          "start": "2024-01-10T08:15:40.541Z",
-          "end": "2024-01-10T08:15:45.617Z",
-          "duration": 5076,
+          "start": "2024-01-14T00:09:45.712Z",
+          "end": "2024-01-14T00:09:50.014Z",
+          "duration": 4302,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit CPA Candidates link from top nav bar",
-          "start": "2024-01-10T08:15:45.619Z",
-          "end": "2024-01-10T08:15:51.205Z",
-          "duration": 5586,
+          "start": "2024-01-14T00:09:50.014Z",
+          "end": "2024-01-14T00:09:55.056Z",
+          "duration": 5042,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit College Students link from top nav bar",
-          "start": "2024-01-10T08:15:51.205Z",
-          "end": "2024-01-10T08:16:01.084Z",
-          "duration": 9879,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Group Memberships link from top nav bar",
-          "start": "2024-01-10T08:16:01.085Z",
-          "end": "2024-01-10T08:16:09.065Z",
-          "duration": 7980,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Chapters link from top nav bar",
-          "start": "2024-01-10T08:16:09.065Z",
-          "end": "2024-01-10T08:16:20.040Z",
-          "duration": 10975,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Get involved link from top nav bar",
-          "start": "2024-01-10T08:16:20.040Z",
-          "end": "2024-01-10T08:16:31.934Z",
-          "duration": 11894,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Scholarships link from top nav bar",
-          "start": "2024-01-10T08:16:31.935Z",
-          "end": "2024-01-10T08:16:43.810Z",
-          "duration": 11875,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Donate link from top nav bar",
-          "start": "2024-01-10T08:16:43.812Z",
-          "end": "2024-01-10T08:16:56.756Z",
-          "duration": 12944,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Search our catalog link from top nav bar",
-          "start": "2024-01-10T08:16:56.758Z",
-          "end": "2024-01-10T08:17:18.281Z",
-          "duration": 21523,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Conferences link from top nav bar",
-          "start": "2024-01-10T08:17:18.294Z",
-          "end": "2024-01-10T08:17:26.318Z",
-          "duration": 8024,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Webinars link from top nav bar",
-          "start": "2024-01-10T08:17:26.318Z",
-          "end": "2024-01-10T08:17:40.048Z",
-          "duration": 13730,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit On-demand link from top nav bar",
-          "start": "2024-01-10T08:17:40.049Z",
-          "end": "2024-01-10T08:17:54.240Z",
-          "duration": 14191,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Events link from top nav bar",
-          "start": "2024-01-10T08:17:54.256Z",
-          "end": "2024-01-10T08:18:09.130Z",
-          "duration": 14874,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Grassroots link from top nav bar",
-          "start": "2024-01-10T08:18:09.140Z",
-          "end": "2024-01-10T08:18:20.670Z",
-          "duration": 11530,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Fund the Future link from top nav bar",
-          "start": "2024-01-10T08:18:20.671Z",
-          "end": "2024-01-10T08:18:24.527Z",
-          "duration": 3856,
-          "state": "passed",
-          "screenshots": []
-        },
-        {
-          "title": "Visit Support link from top nav bar",
-          "start": "2024-01-10T08:18:24.528Z",
-          "end": "2024-01-10T08:18:28.182Z",
+          "start": "2024-01-14T00:09:55.057Z",
+          "end": "2024-01-14T00:09:58.711Z",
           "duration": 3654,
           "state": "passed",
           "screenshots": []
         },
         {
+          "title": "Visit Group Memberships link from top nav bar",
+          "start": "2024-01-14T00:09:58.712Z",
+          "end": "2024-01-14T00:10:03.798Z",
+          "duration": 5086,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Chapters link from top nav bar",
+          "start": "2024-01-14T00:10:03.799Z",
+          "end": "2024-01-14T00:10:07.607Z",
+          "duration": 3808,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Get involved link from top nav bar",
+          "start": "2024-01-14T00:10:07.607Z",
+          "end": "2024-01-14T00:10:11.602Z",
+          "duration": 3995,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Scholarships link from top nav bar",
+          "start": "2024-01-14T00:10:11.602Z",
+          "end": "2024-01-14T00:10:15.148Z",
+          "duration": 3546,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Donate link from top nav bar",
+          "start": "2024-01-14T00:10:15.148Z",
+          "end": "2024-01-14T00:10:18.165Z",
+          "duration": 3017,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Search our catalog link from top nav bar",
+          "start": "2024-01-14T00:10:18.165Z",
+          "end": "2024-01-14T00:10:24.252Z",
+          "duration": 6087,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Conferences link from top nav bar",
+          "start": "2024-01-14T00:10:24.253Z",
+          "end": "2024-01-14T00:10:30.475Z",
+          "duration": 6222,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Webinars link from top nav bar",
+          "start": "2024-01-14T00:10:30.476Z",
+          "end": "2024-01-14T00:10:36.574Z",
+          "duration": 6098,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit On-demand link from top nav bar",
+          "start": "2024-01-14T00:10:36.574Z",
+          "end": "2024-01-14T00:10:43.832Z",
+          "duration": 7258,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Events link from top nav bar",
+          "start": "2024-01-14T00:10:43.832Z",
+          "end": "2024-01-14T00:10:48.369Z",
+          "duration": 4537,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Grassroots link from top nav bar",
+          "start": "2024-01-14T00:10:48.369Z",
+          "end": "2024-01-14T00:10:51.183Z",
+          "duration": 2814,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Fund the Future link from top nav bar",
+          "start": "2024-01-14T00:10:51.183Z",
+          "end": "2024-01-14T00:10:54.807Z",
+          "duration": 3624,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Visit Support link from top nav bar",
+          "start": "2024-01-14T00:10:54.807Z",
+          "end": "2024-01-14T00:10:57.545Z",
+          "duration": 2738,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:18:28.183Z",
+          "start": "2024-01-14T00:10:57.545Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874731969.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191079913.jpeg"
           ]
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:18:51.984Z",
+          "start": "2024-01-14T00:11:19.916Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874754245.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191102515.jpeg"
           ]
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:19:14.247Z",
+          "start": "2024-01-14T00:11:42.518Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874776896.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191125194.jpeg"
           ]
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:19:36.898Z",
+          "start": "2024-01-14T00:12:05.195Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874799464.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191147857.jpeg"
           ]
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:19:59.467Z",
+          "start": "2024-01-14T00:12:27.859Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874821883.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191170498.jpeg"
           ]
         },
         {
           "title": "Visit California CPA Magazine link from top nav bar",
-          "start": "2024-01-10T08:20:21.886Z",
-          "end": "2024-01-10T08:20:44.972Z",
-          "duration": 23086,
+          "start": "2024-01-14T00:12:50.499Z",
+          "end": "2024-01-14T00:13:12.882Z",
+          "duration": 22383,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874844957.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191192879.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -273,73 +282,73 @@
         },
         {
           "title": "Visit Knowledge Hub link from top nav bar",
-          "start": "2024-01-10T08:20:44.972Z",
-          "end": "2024-01-10T08:20:49.835Z",
-          "duration": 4863,
+          "start": "2024-01-14T00:13:12.883Z",
+          "end": "2024-01-14T00:13:17.378Z",
+          "duration": 4495,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Daily Clips link from top nav bar",
-          "start": "2024-01-10T08:20:49.835Z",
-          "end": "2024-01-10T08:20:52.283Z",
-          "duration": 2448,
+          "start": "2024-01-14T00:13:17.378Z",
+          "end": "2024-01-14T00:13:19.738Z",
+          "duration": 2360,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:20:52.283Z",
+          "start": "2024-01-14T00:13:19.739Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874874548.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191222137.jpeg"
           ]
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:21:14.552Z",
+          "start": "2024-01-14T00:13:42.144Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874897574.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191244601.jpeg"
           ]
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:21:37.577Z",
+          "start": "2024-01-14T00:14:04.606Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874909005.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191267389.jpeg"
           ]
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:21:49.009Z",
+          "start": "2024-01-14T00:14:27.392Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874931571.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191290014.jpeg"
           ]
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:22:11.574Z",
+          "start": "2024-01-14T00:14:50.018Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874953924.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191312681.jpeg"
           ]
         },
         {
           "title": "Visit It's Material link from top nav bar",
-          "start": "2024-01-10T08:22:33.927Z",
-          "end": "2024-01-10T08:22:56.578Z",
-          "duration": 22651,
+          "start": "2024-01-14T00:15:12.686Z",
+          "end": "2024-01-14T00:15:35.519Z",
+          "duration": 22833,
           "state": "failed",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1704874976574.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191335515.jpeg"
           ],
           "error": {
             "type": "Error",
@@ -349,113 +358,122 @@
         },
         {
           "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2024-01-10T08:22:56.579Z",
-          "end": "2024-01-10T08:23:00.325Z",
-          "duration": 3746,
+          "start": "2024-01-14T00:15:35.519Z",
+          "end": "2024-01-14T00:15:38.372Z",
+          "duration": 2853,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For the Press link from top nav bar",
-          "start": "2024-01-10T08:23:00.325Z",
-          "end": "2024-01-10T08:23:02.802Z",
-          "duration": 2477,
+          "start": "2024-01-14T00:15:38.373Z",
+          "end": "2024-01-14T00:15:40.707Z",
+          "duration": 2334,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Career Options link from top nav bar",
-          "start": "2024-01-10T08:23:02.802Z",
-          "end": "2024-01-10T08:23:04.886Z",
-          "duration": 2084,
+          "start": "2024-01-14T00:15:40.707Z",
+          "end": "2024-01-14T00:15:42.867Z",
+          "duration": 2160,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Scholarships link from top nav bar",
-          "start": "2024-01-10T08:23:04.887Z",
-          "end": "2024-01-10T08:23:07.001Z",
-          "duration": 2114,
+          "start": "2024-01-14T00:15:42.867Z",
+          "end": "2024-01-14T00:15:45.065Z",
+          "duration": 2198,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit CPA Licensure link from top nav bar",
-          "start": "2024-01-10T08:23:07.001Z",
-          "end": "2024-01-10T08:23:09.157Z",
-          "duration": 2156,
+          "start": "2024-01-14T00:15:45.065Z",
+          "end": "2024-01-14T00:15:47.362Z",
+          "duration": 2297,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Ethics Exam link from top nav bar",
-          "start": "2024-01-10T08:23:09.157Z",
-          "end": "2024-01-10T08:23:11.218Z",
-          "duration": 2061,
+          "start": "2024-01-14T00:15:47.362Z",
+          "end": "2024-01-14T00:15:49.653Z",
+          "duration": 2291,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Salary Guide link from top nav bar",
-          "start": "2024-01-10T08:23:11.218Z",
-          "end": "2024-01-10T08:23:13.389Z",
-          "duration": 2171,
+          "start": "2024-01-14T00:15:49.653Z",
+          "end": "2024-01-14T00:15:51.857Z",
+          "duration": 2204,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Fund the Future link from top nav bar",
-          "start": "2024-01-10T08:23:13.389Z",
-          "end": "2024-01-10T08:23:15.537Z",
-          "duration": 2148,
+          "start": "2024-01-14T00:15:51.857Z",
+          "end": "2024-01-14T00:15:53.996Z",
+          "duration": 2139,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For Students link from top nav bar",
-          "start": "2024-01-10T08:23:15.537Z",
-          "end": "2024-01-10T08:23:18.077Z",
-          "duration": 2540,
+          "start": "2024-01-14T00:15:53.996Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1705191366161.jpeg"
+          ]
+        },
+        {
+          "title": "Visit For Students link from top nav bar",
+          "start": "2024-01-14T00:16:06.163Z",
+          "end": "2024-01-14T00:16:08.304Z",
+          "duration": 2141,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For Educators link from top nav bar",
-          "start": "2024-01-10T08:23:18.077Z",
-          "end": "2024-01-10T08:23:20.273Z",
-          "duration": 2196,
+          "start": "2024-01-14T00:16:08.304Z",
+          "end": "2024-01-14T00:16:10.718Z",
+          "duration": 2414,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit For YEPs link from top nav bar",
-          "start": "2024-01-10T08:23:20.273Z",
-          "end": "2024-01-10T08:23:22.488Z",
-          "duration": 2215,
+          "start": "2024-01-14T00:16:10.718Z",
+          "end": "2024-01-14T00:16:13.058Z",
+          "duration": 2340,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Upcoming Events link from top nav bar",
-          "start": "2024-01-10T08:23:22.488Z",
-          "end": "2024-01-10T08:23:25.520Z",
-          "duration": 3032,
+          "start": "2024-01-14T00:16:13.058Z",
+          "end": "2024-01-14T00:16:16.367Z",
+          "duration": 3309,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit Find a CPA link from top nav bar",
-          "start": "2024-01-10T08:23:25.520Z",
-          "end": "2024-01-10T08:23:27.423Z",
-          "duration": 1903,
+          "start": "2024-01-14T00:16:16.367Z",
+          "end": "2024-01-14T00:16:18.099Z",
+          "duration": 1732,
           "state": "passed",
           "screenshots": []
         },
         {
           "title": "Visit About Us link from top nav bar",
-          "start": "2024-01-10T08:23:27.423Z",
-          "end": "2024-01-10T08:23:28.741Z",
-          "duration": 1318,
+          "start": "2024-01-14T00:16:18.099Z",
+          "end": "2024-01-14T00:16:19.394Z",
+          "duration": 1295,
           "state": "passed",
           "screenshots": []
         }
