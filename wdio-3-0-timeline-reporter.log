@@ -1,17 +1,17 @@
 {
-  "start": "2024-02-13T20:00:20.415Z",
-  "end": "2024-02-13T20:07:43.293Z",
+  "start": "2024-02-14T08:00:45.459Z",
+  "end": "2024-02-14T08:24:20.034Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "121.0.6167.161",
     "chrome": {
       "chromedriverVersion": "121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir4700_1985286176"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir9656_415532640"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:61608"
+      "debuggerAddress": "localhost:51146"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,35 +30,148 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "b0e14766309b325b73500fc3d30eb2eb"
+    "sessionId": "08f7a50816409be4f70646ec659829d8"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 442878,
+  "duration": 1414575,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 441555,
-      "start": "2024-02-13T20:00:20.457Z",
-      "end": "2024-02-13T20:07:42.012Z",
+      "duration": 1414469,
+      "start": "2024-02-14T08:00:45.466Z",
+      "end": "2024-02-14T08:24:19.935Z",
       "tests": [
         {
-          "title": "Joins from Front-End (Retired)",
-          "start": "2024-02-13T20:00:20.458Z",
+          "title": "Set Up New User and Log In",
+          "start": "2024-02-14T08:00:45.466Z",
+          "end": "2024-02-14T08:03:26.928Z",
+          "duration": 161462,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2024-02-14T08:03:26.931Z",
+          "end": "2024-02-14T08:05:41.354Z",
+          "duration": 134423,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:05:41.356Z",
           "duration": 0,
           "state": "pending",
           "screenshots": [
-            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707854507506.jpeg"
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707898210490.jpeg"
           ]
         },
         {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:10:10.500Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707898485666.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:14:45.678Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707898571003.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:16:11.008Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707898716744.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:18:36.749Z",
+          "duration": 0,
+          "state": "pending",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707898785987.jpeg"
+          ]
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:19:45.993Z",
+          "end": "2024-02-14T08:24:19.932Z",
+          "duration": 273939,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1707899059927.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The text 'Your Order is Complete' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/checkout' within 180 seconds!",
+            "stack": "Error: The text 'Your Order is Complete' was not displayed on the page 'https://calcpa--full.sandbox.my.site.com/CalCPA/s/checkout' within 180 seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayedWithTimeout (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:122:17)\n    at Function.joinAsExecutive (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\pages\\frontend\\join-page.js:111:15)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js:44:26)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
+        },
+        {
           "title": "Joins from Front-End (Retired)",
-          "start": "2024-02-13T20:01:47.514Z",
-          "end": "2024-02-13T20:07:41.930Z",
-          "duration": 354416,
-          "state": "passed",
-          "screenshots": []
+          "start": "2024-02-14T08:24:19.934Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": " from Front-End (Temporarily Out of Work)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Financial Professional)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Candidate)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Student)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Executive)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Business Professional)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Professional < 5)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
+        },
+        {
+          "title": "Joins from Front-End (Professional + 5)",
+          "start": "2024-02-14T08:24:19.935Z",
+          "duration": 0,
+          "state": "skipped"
         }
       ],
       "hooks": []
@@ -68,8 +181,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\join-tests.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
-    "skipped": 0
+    "passed": 2,
+    "failed": 1,
+    "skipped": 9
   }
 }
