@@ -1,17 +1,17 @@
 {
-  "start": "2024-03-13T19:00:09.775Z",
-  "end": "2024-03-13T19:00:13.189Z",
+  "start": "2024-03-13T23:00:42.078Z",
+  "end": "2024-03-13T23:01:03.945Z",
   "capabilities": {
     "acceptInsecureCerts": true,
     "browserName": "chrome",
     "browserVersion": "122.0.6261.112",
     "chrome": {
       "chromedriverVersion": "121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539})",
-      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir12320_1420628286"
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir6176_1694405268"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:51598"
+      "debuggerAddress": "localhost:63484"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,26 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "de8a6c015677294de96b90f354bc2e87"
+    "sessionId": "65a7799ecc2b5313a265c6c6851be8d8"
   },
   "host": "localhost",
   "port": 9515,
   "framework": "mocha",
-  "duration": 3414,
+  "duration": 21867,
   "suites": [
     {
       "title": "Sanity Checks",
-      "duration": 3328,
-      "start": "2024-03-13T19:00:09.794Z",
-      "end": "2024-03-13T19:00:13.122Z",
+      "duration": 21780,
+      "start": "2024-03-13T23:00:42.088Z",
+      "end": "2024-03-13T23:01:03.868Z",
       "tests": [
         {
           "title": "Visit Site",
-          "start": "2024-03-13T19:00:09.798Z",
-          "end": "2024-03-13T19:00:13.121Z",
-          "duration": 3323,
-          "state": "passed",
-          "screenshots": []
+          "start": "2024-03-13T23:00:42.092Z",
+          "end": "2024-03-13T23:01:03.866Z",
+          "duration": 21774,
+          "state": "failed",
+          "screenshots": [
+            "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\calcpa-test-automation.github.io\\file-1710370863864.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "The text 'Welcome to CalCPA' was not displayed on the page 'data:,' within twenty seconds!",
+            "stack": "Error: The text 'Welcome to CalCPA' was not displayed on the page 'data:,' within twenty seconds!\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n    at async Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n    at Browser.runCommandWithHooks (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n    at Browser.wrapCommandFn (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n    at Browser.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\webdriverio\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n    at Function.waitForTextToBeDisplayed (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\utilities.js:114:17)\n    at Context.<anonymous> (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\pay-invoice-tests.js:23:15)\n    at Context.executeSync (C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n    at C:\\Users\\hi\\Desktop\\calcpa-test-automation\\node_modules\\@wdio\\sync\\build\\index.js:69:73"
+          }
         }
       ],
       "hooks": []
@@ -59,8 +66,8 @@
     "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\pay-invoice-tests.js"
   ],
   "state": {
-    "passed": 1,
-    "failed": 0,
+    "passed": 0,
+    "failed": 1,
     "skipped": 0
   }
 }
