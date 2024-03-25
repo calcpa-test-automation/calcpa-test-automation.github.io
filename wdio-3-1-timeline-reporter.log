@@ -1,0 +1,82 @@
+{
+  "start": "2024-03-25T22:37:01.189Z",
+  "end": "2024-03-25T22:37:43.272Z",
+  "capabilities": {
+    "acceptInsecureCerts": true,
+    "browserName": "chrome",
+    "browserVersion": "123.0.6312.59",
+    "chrome": {
+      "chromedriverVersion": "123.0.6312.58 (6b4b19e9dfbb93aa414dc045bd445287977d8d7a-refs/branch-heads/6312_46@{#3})",
+      "userDataDir": "C:\\Users\\hi\\AppData\\Local\\Temp\\scoped_dir15248_406588581"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:50712"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "0ebfc4afe03388375e931e67ab0c445b"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "framework": "mocha",
+  "duration": 42083,
+  "suites": [
+    {
+      "title": "Sanity Checks",
+      "duration": 42016,
+      "start": "2024-03-25T22:37:01.193Z",
+      "end": "2024-03-25T22:37:43.209Z",
+      "tests": [
+        {
+          "title": "New Pay Invoice Page - CPE Select",
+          "start": "2024-03-25T22:37:01.193Z",
+          "end": "2024-03-25T22:37:13.196Z",
+          "duration": 12003,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "New Pay Invoice Page - Donations",
+          "start": "2024-03-25T22:37:13.205Z",
+          "end": "2024-03-25T22:37:29.207Z",
+          "duration": 16002,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "New Pay Invoice Page - FSS (Pay Later)",
+          "start": "2024-03-25T22:37:29.208Z",
+          "end": "2024-03-25T22:37:43.209Z",
+          "duration": 14001,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\hi\\Desktop\\calcpa-test-automation\\tests\\pay-invoice-tests.js"
+  ],
+  "state": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  }
+}
